@@ -2,23 +2,23 @@
 My Objective-C Extension
 ========================
 
-‚±‚ÌƒtƒŒ[ƒ€ƒ[ƒN‚É‚ÍAObjective-C‚É‚Í‚È‚¢‹@”\‚ğCategory‚ğg—p‚µ‚ÄŠg’£‚ğ‚µ‚Ü‚·B
+ã“ã®ãƒ•ãƒ¬ãƒ¼ãƒ ãƒ¯ãƒ¼ã‚¯ã«ã¯ã€Objective-Cã«ã¯ãªã„æ©Ÿèƒ½ã‚’Categoryã‚’ä½¿ç”¨ã—ã¦æ‹¡å¼µã‚’ã—ã¾ã™ã€‚
 
-Šg’£‚ğ‚µ‚Ä‚¢‚é Object ‚Æ“à—eˆê——
+æ‹¡å¼µã‚’ã—ã¦ã„ã‚‹ Object ã¨å†…å®¹ä¸€è¦§
 
 
 NSArray
 -------
 
-- `- (NSArray*) map:(NSArrayMapBlock)mapblock;` Map ŠÖ”‚ğg—p‚·‚éiMac OS 10.6ˆÈã/iOS4.0ˆÈãj
-- `- (NSObject*) reduce:(NSArrayReduceBlock)reduceblock;` Reduce ŠÖ”‚ğg—p‚·‚éiMac OS 10.6ˆÈã/iOS4.0ˆÈãj
-- `- (id) getRandomObject;` ”z—ñ‚É‚ ‚é”CˆÓ‚ÌƒIƒuƒWƒFƒNƒg‚ğAƒ‰ƒ“ƒ_ƒ€‚É•Ô‚µ‚Ü‚·B
+- `- (NSArray*) map:(NSArrayMapBlock)mapblock;` Map é–¢æ•°ã‚’ä½¿ç”¨ã™ã‚‹ï¼ˆMac OS 10.6ä»¥ä¸Š/iOS4.0ä»¥ä¸Šï¼‰
+- `- (NSObject*) reduce:(NSArrayReduceBlock)reduceblock;` Reduce é–¢æ•°ã‚’ä½¿ç”¨ã™ã‚‹ï¼ˆMac OS 10.6ä»¥ä¸Š/iOS4.0ä»¥ä¸Šï¼‰
+- `- (id) getRandomObject;` é…åˆ—ã«ã‚ã‚‹ä»»æ„ã®ã‚ªãƒ–ã‚¸ã‚§ã‚¯ãƒˆã‚’ã€ãƒ©ãƒ³ãƒ€ãƒ ã«è¿”ã—ã¾ã™ã€‚
 
 ### Map Example
 
 	#import <OExtension.h>
 	#define N(n) [NSNumber numberWithInt:(n)]
-	c
+	â€¦
 	NSArray* arr = [NSArray arrayWithObject:N(1),N(2),N(3),nil];
 	NSNumber* sum = [arr map:^(NSObject*a){
 		NSObject* result = nil;
@@ -30,7 +30,7 @@ NSArray
 
 	#import <OExtension.h>
 	#define N(n) [NSNumber numberWithInt:(n)]
-	c
+	â€¦
 	NSArray* arr = [NSArray arrayWithObject:N(1),N(2),N(3),nil];
 	NSNumber* sum = [arr reduce:^(NSObject*a, NSObject*b){
 		NSObject* obj = (NSObject*)[NSNumber numberWithInt:
@@ -41,35 +41,35 @@ NSArray
 NSData
 ------
 
-- `- (NSString*)md5HexString` ƒf[ƒ^‚ÌMD5ƒnƒbƒVƒ…’l‚ğ•Ô‚µ‚Ü‚·B
-- `- (NSString*)sha256HexString;` ƒf[ƒ^‚ÌSHA256ƒnƒbƒVƒ…’l‚ğ•Ô‚µ‚Ü‚·B
-- `- (NSString*)sha512HexString;` ƒf[ƒ^‚ÌSHA512ƒnƒbƒVƒ…’l‚ğ•Ô‚µ‚Ü‚·B
+- `- (NSString*)md5HexString` ãƒ‡ãƒ¼ã‚¿ã®MD5ãƒãƒƒã‚·ãƒ¥å€¤ã‚’è¿”ã—ã¾ã™ã€‚
+- `- (NSString*)sha256HexString;` ãƒ‡ãƒ¼ã‚¿ã®SHA256ãƒãƒƒã‚·ãƒ¥å€¤ã‚’è¿”ã—ã¾ã™ã€‚
+- `- (NSString*)sha512HexString;` ãƒ‡ãƒ¼ã‚¿ã®SHA512ãƒãƒƒã‚·ãƒ¥å€¤ã‚’è¿”ã—ã¾ã™ã€‚
 
 NSDate
 ------
 
-- `+(NSDate*)dateFromRFC1123:(NSString*)value_;` RFC1123ƒtƒH[ƒ}ƒbƒg‚Ì“ú•t‚ğNSDateŒ^‚É‚µ‚Ü‚·B
-- `-(NSString*)rfc1123String;` NSDateƒIƒuƒWƒFƒNƒg‚ğRFC1123ƒtƒH[ƒ}ƒbƒg‚ÌNSStringŒ^‚É‚µ‚Ü‚·B
+- `+(NSDate*)dateFromRFC1123:(NSString*)value_;` RFC1123ãƒ•ã‚©ãƒ¼ãƒãƒƒãƒˆã®æ—¥ä»˜ã‚’NSDateå‹ã«ã—ã¾ã™ã€‚
+- `-(NSString*)rfc1123String;` NSDateã‚ªãƒ–ã‚¸ã‚§ã‚¯ãƒˆã‚’RFC1123ãƒ•ã‚©ãƒ¼ãƒãƒƒãƒˆã®NSStringå‹ã«ã—ã¾ã™ã€‚
 
 NSDictionary
 ------------
 
-- `- (NSData*) dictionaryForQueryData;` HTTP‚ÌQuery•¶š—ñ‚É•ÏŠ·‚µ‚Ü‚·B
-- `- (NSString*)xmlDescription;` NSDictionary‚ğplist‚ÌXML‚É‚µ‚Ä•Ô‚µ‚Ü‚·B
-- `+ (NSDictionary*) dictionaryWithXMLFile:(NSString*)path;` plist‚Å®Œ`‚³‚ê‚Ä‚¢‚éXMLƒtƒ@ƒCƒ‹‚ğ“Ç‚İ‚İANSDictionaryŒ^‚É‚µ‚Ü‚·B
-- `+ (NSDictionary*) dictionaryWithFile:(NSString*)path;` plist‚È‚¢‚µ‚Íxmlƒtƒ@ƒCƒ‹‚ğ“Ç‚İ‚İ‚Ü‚·B
+- `- (NSData*) dictionaryForQueryData;` HTTPã®Queryæ–‡å­—åˆ—ã«å¤‰æ›ã—ã¾ã™ã€‚
+- `- (NSString*)xmlDescription;` NSDictionaryã‚’plistã®XMLã«ã—ã¦è¿”ã—ã¾ã™ã€‚
+- `+ (NSDictionary*) dictionaryWithXMLFile:(NSString*)path;` plistã§æ•´å½¢ã•ã‚Œã¦ã„ã‚‹XMLãƒ•ã‚¡ã‚¤ãƒ«ã‚’èª­ã¿è¾¼ã¿ã€NSDictionaryå‹ã«ã—ã¾ã™ã€‚
+- `+ (NSDictionary*) dictionaryWithFile:(NSString*)path;` plistãªã„ã—ã¯xmlãƒ•ã‚¡ã‚¤ãƒ«ã‚’èª­ã¿è¾¼ã¿ã¾ã™ã€‚
 
 NSString
 --------
 
-- `+ (NSString*)strReplace:(NSString*)source replace:(NSString*)r to:(NSString*)t;` •¶š—ñ‚ğ’uŠ·‚µ‚Ü‚·
-- `+ (NSString*)stringFromRandomWithLength:(NSInteger)length;` w’è‚µ‚½’·‚³‚Ìƒ‰ƒ“ƒ_ƒ€•¶š—ñ‚ğ¶¬‚µ‚Ü‚·B
-- `+ (NSString*) stringWithRandomUUID;` UUID4 ‚Ì•¶š—ñ‚ğì¬‚µ‚Ü‚·B
-- `- (BOOL) equalToString:(NSString*)str;` •¶š—ñ‚ğŒµ–§‚È”äŠr‚ğ‚µ‚Ü‚·B
-- `- (BOOL) isNoneLiteralEqualToString:(NSString*)str;` ‘å•¶š¬•¶š‚ğ‹æ•Ê‚¹‚¸‚É”äŠr‚µ‚Ü‚·B
-- `- (NSString*) abstructPathFromBundle:(NSBundle*)bundle;` ƒtƒ@ƒCƒ‹–¼‚©‚çâ‘ÎƒpƒX‚ğì‚è‚Ü‚·
-- `- (NSString*) lastNameComponent;` Šg’£q‚ğÁ‚µ‚½ƒtƒ@ƒCƒ‹–¼‚ğæ“¾‚µ‚Ü‚·B
-- `- (NSString*) urlEncoding;` URL Encode ‚ğ‚µ‚Ü‚·B
+- `+ (NSString*)strReplace:(NSString*)source replace:(NSString*)r to:(NSString*)t;` æ–‡å­—åˆ—ã‚’ç½®æ›ã—ã¾ã™
+- `+ (NSString*)stringFromRandomWithLength:(NSInteger)length;` æŒ‡å®šã—ãŸé•·ã•ã®ãƒ©ãƒ³ãƒ€ãƒ æ–‡å­—åˆ—ã‚’ç”Ÿæˆã—ã¾ã™ã€‚
+- `+ (NSString*) stringWithRandomUUID;` UUID4 ã®æ–‡å­—åˆ—ã‚’ä½œæˆã—ã¾ã™ã€‚
+- `- (BOOL) equalToString:(NSString*)str;` æ–‡å­—åˆ—ã‚’å³å¯†ãªæ¯”è¼ƒã‚’ã—ã¾ã™ã€‚
+- `- (BOOL) isNoneLiteralEqualToString:(NSString*)str;` å¤§æ–‡å­—å°æ–‡å­—ã‚’åŒºåˆ¥ã›ãšã«æ¯”è¼ƒã—ã¾ã™ã€‚
+- `- (NSString*) abstructPathFromBundle:(NSBundle*)bundle;` ãƒ•ã‚¡ã‚¤ãƒ«åã‹ã‚‰çµ¶å¯¾ãƒ‘ã‚¹ã‚’ä½œã‚Šã¾ã™
+- `- (NSString*) lastNameComponent;` æ‹¡å¼µå­ã‚’æ¶ˆã—ãŸãƒ•ã‚¡ã‚¤ãƒ«åã‚’å–å¾—ã—ã¾ã™ã€‚
+- `- (NSString*) urlEncoding;` URL Encode ã‚’ã—ã¾ã™ã€‚
 
 
 
