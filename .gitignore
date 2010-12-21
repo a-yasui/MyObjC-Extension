@@ -1,0 +1,6 @@
+*.pbxuser
+*.mode1v3
+:2e*
+.#*
+.DS_*
+build
