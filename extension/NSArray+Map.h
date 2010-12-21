@@ -8,7 +8,10 @@
 
 #import <Foundation/Foundation.h>
 
-typedef NSObject* (^NSArrayMap)(NSObject*);
+typedef NSObject* (^NSArrayMapBlock)(NSObject*);
+typedef NSObject* (^NSArrayReduceBlock)(NSObject*,NSObject*);
+
 @interface NSArray (Map)
-- (NSArray*) map:(NSArrayMap)mapblock;
+- (NSArray*) map:(NSArrayMapBlock)mapblock;
+- (NSObject*) reduce:(NSArrayReduceBlock)reduceblock;
 @end

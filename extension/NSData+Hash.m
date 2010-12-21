@@ -3,7 +3,7 @@
 //  kisa
 //
 //  Created by 安井 惇 on 10/05/24.
-//  Copyright 2010 Design Egg Co.,LTD. All rights reserved.
+//  Copyright 2010 __MyCompanyName__. All rights reserved.
 //
 
 #import "NSData+Hash.h"
@@ -19,8 +19,9 @@ hexFromUnsigedChar (unsigned char* ptr, NSUInteger ptrLength)
         unsigned int hex = (unsigned int)ptr[i];
         [hexStr appendFormat:@"%02X", hex];
     }
-    
-    DLog(@"%s hexString:%@", __FUNCTION__, hexStr);
+#ifdef DEBUG
+    NSLog(@"%s hexString:%@", __FUNCTION__, hexStr);
+#endif
     str = [NSString stringWithString:hexStr];
     [hexStr release];
     return str;

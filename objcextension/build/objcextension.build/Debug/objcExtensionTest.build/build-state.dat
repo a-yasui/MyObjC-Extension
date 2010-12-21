@@ -1,573 +1,0 @@
-TobjcExtensionTest
-v7
-r0
-t314624650.675800
-cCheck dependencies
-cProcessInfoPlistFile /Users/yasui/Desktop/develop/objc-extention/objcextension/build/Debug/objcExtensionTest.octest/Contents/Info.plist objcExtensionTest-Info.plist
-cProcessPCH /var/folders/r8/r8CIukSTHtmiM3YmpKzNAk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Cocoa-erhzlbuqxcvnqndeenlkfyntovfd/Cocoa.h.gch /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h normal x86_64 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/objcextension.build/Debug/objcExtensionTest.build/Objects-normal/x86_64/NSArray+Map.o /Users/yasui/Desktop/develop/objc-extention/objcextension/../extension/NSArray+Map.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/objcextension.build/Debug/objcExtensionTest.build/Objects-normal/x86_64/NSArray+random.o /Users/yasui/Desktop/develop/objc-extention/objcextension/../extension/NSArray+random.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/objcextension.build/Debug/objcExtensionTest.build/Objects-normal/x86_64/NSData+Hash.o /Users/yasui/Desktop/develop/objc-extention/objcextension/../extension/NSData+Hash.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/objcextension.build/Debug/objcExtensionTest.build/Objects-normal/x86_64/NSDate+RFC1123.o /Users/yasui/Desktop/develop/objc-extention/objcextension/../extension/NSDate+RFC1123.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/objcextension.build/Debug/objcExtensionTest.build/Objects-normal/x86_64/NSDictionary+HTTPQuery.o /Users/yasui/Desktop/develop/objc-extention/objcextension/../extension/NSDictionary+HTTPQuery.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/objcextension.build/Debug/objcExtensionTest.build/Objects-normal/x86_64/NSDictionary+PropertyList.o /Users/yasui/Desktop/develop/objc-extention/objcextension/../extension/NSDictionary+PropertyList.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/objcextension.build/Debug/objcExtensionTest.build/Objects-normal/x86_64/NSString+Addition.o /Users/yasui/Desktop/develop/objc-extention/objcextension/../extension/NSString+Addition.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/objcextension.build/Debug/objcExtensionTest.build/Objects-normal/x86_64/OEUnittest.o /Users/yasui/Desktop/develop/objc-extention/objcextension/unittest/OEUnittest.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
-cLd /Users/yasui/Desktop/develop/objc-extention/objcextension/build/Debug/objcExtensionTest.octest/Contents/MacOS/objcExtensionTest normal x86_64
-cPhaseScriptExecution スクリプトを実行 /Users/yasui/Desktop/develop/objc-extention/objcextension/build/objcextension.build/Debug/objcExtensionTest.build/Script-DABBE58212C0B04300D0F888.sh
-cTouch /Users/yasui/Desktop/develop/objc-extention/objcextension/build/Debug/objcExtensionTest.octest
-
-N/Developer/Library/Frameworks/SenTestingKit.framework/Headers/NSException_SenTestFailure.h
-c000000004C885CA00000000000000E25
-t1284005024
-s3621
-i<Foundation/Foundation.h>
-i<SenTestingKit/SenTestDefines.h>
-
-N/Developer/Library/Frameworks/SenTestingKit.framework/Headers/SenInterfaceTestCase.h
-c000000004C885CA00000000000000701
-t1284005024
-s1793
-i<Foundation/Foundation.h>
-i<SenTestingKit/SenTestCase.h>
-
-N/Developer/Library/Frameworks/SenTestingKit.framework/Headers/SenTest.h
-c000000004C885CA0000000000000084C
-t1284005024
-s2124
-i<Foundation/Foundation.h>
-
-N/Developer/Library/Frameworks/SenTestingKit.framework/Headers/SenTestCase.h
-c000000004C885CA0000000000000167B
-t1284005024
-s5755
-i<Foundation/NSObject.h>
-i<SenTestingKit/SenTest.h>
-i<SenTestingKit/SenTestCase_Macros.h>
-i<SenTestingKit/NSException_SenTestFailure.h>
-
-N/Developer/Library/Frameworks/SenTestingKit.framework/Headers/SenTestCaseRun.h
-c000000004C885CA00000000000000860
-t1284005024
-s2144
-i<SenTestingKit/SenTestRun.h>
-i<SenTestingKit/SenTestDefines.h>
-
-N/Developer/Library/Frameworks/SenTestingKit.framework/Headers/SenTestCase_Macros.h
-c000000004C885CA00000000000007F41
-t1284005024
-s32577
-i<SenTestingKit/SenTestingUtilities.h>
-
-N/Developer/Library/Frameworks/SenTestingKit.framework/Headers/SenTestDefines.h
-c000000004C885CA00000000000000947
-t1284005024
-s2375
-
-N/Developer/Library/Frameworks/SenTestingKit.framework/Headers/SenTestDistributedNotifier.h
-c000000004C885CA000000000000006F0
-t1284005024
-s1776
-i<Foundation/Foundation.h>
-i<SenTestingKit/SenTestObserver.h>
-
-N/Developer/Library/Frameworks/SenTestingKit.framework/Headers/SenTestLog.h
-c000000004C885CA000000000000006D0
-t1284005024
-s1744
-i<Foundation/Foundation.h>
-i<SenTestingKit/SenTestObserver.h>
-
-N/Developer/Library/Frameworks/SenTestingKit.framework/Headers/SenTestObserver.h
-c000000004C885CA000000000000009CF
-t1284005024
-s2511
-i<Foundation/Foundation.h>
-i<SenTestingKit/SenTestDefines.h>
-
-N/Developer/Library/Frameworks/SenTestingKit.framework/Headers/SenTestProbe.h
-c000000004C885CA00000000000000958
-t1284005024
-s2392
-i<Foundation/Foundation.h>
-i<SenTestingKit/SenTestDefines.h>
-
-N/Developer/Library/Frameworks/SenTestingKit.framework/Headers/SenTestRun.h
-c000000004C885CA00000000000000A79
-t1284005024
-s2681
-i<Foundation/NSObject.h>
-i<SenTestingKit/SenTest.h>
-
-N/Developer/Library/Frameworks/SenTestingKit.framework/Headers/SenTestSuite.h
-c000000004C885CA00000000000000CCF
-t1284005024
-s3279
-i<SenTestingKit/SenTest.h>
-i<SenTestingKit/SenTestCase.h>
-i<Foundation/Foundation.h>
-
-N/Developer/Library/Frameworks/SenTestingKit.framework/Headers/SenTestSuiteRun.h
-c000000004C885CA000000000000007D3
-t1284005024
-s2003
-i<SenTestingKit/SenTestRun.h>
-i<SenTestingKit/SenTestDefines.h>
-
-N/Developer/Library/Frameworks/SenTestingKit.framework/Headers/SenTestingKit.h
-c000000004C885CA000000000000008A5
-t1284005024
-s2213
-i<SenTestingKit/SenTestDefines.h>
-i<SenTestingKit/SenTest.h>
-i<SenTestingKit/SenTestCase.h>
-i<SenTestingKit/SenTestSuite.h>
-i<SenTestingKit/SenTestObserver.h>
-i<SenTestingKit/NSException_SenTestFailure.h>
-i<SenTestingKit/SenTestLog.h>
-i<SenTestingKit/SenTestDistributedNotifier.h>
-i<SenTestingKit/SenTestRun.h>
-i<SenTestingKit/SenTestSuiteRun.h>
-i<SenTestingKit/SenTestCaseRun.h>
-i<SenTestingKit/SenInterfaceTestCase.h>
-i<SenTestingKit/SenTestProbe.h>
-i<SenTestingKit/SenTestingUtilities.h>
-
-N/Developer/Library/Frameworks/SenTestingKit.framework/Headers/SenTestingUtilities.h
-c000000004C885CA00000000000000C37
-t1284005024
-s3127
-i<Foundation/Foundation.h>
-
-N/Developer/SDKs/MacOSX10.6.sdk
-c000000004CEBA5D600000000000000EE
-t1290511830
-s238
-
-N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h
-c0000000040C4AA6800000000000001E5
-t1086630504
-s485
-
-N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
-c000000004C23AA0400000000000013E6
-t1277405700
-s5094
-
-N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSObject.h
-c000000004C23AA050000000000000EDE
-t1277405701
-s3806
-
-N/Developer/SDKs/MacOSX10.6.sdk/usr/include/CommonCrypto/CommonDigest.h
-c000000004A11E8210000000000002407
-t1242687521
-s9223
-
-N/Users/yasui/Desktop/develop/objc-extention/extension/NSArray+Map.h
-c000000004D107829000000000000019A
-t1292924969
-s410
-i<Foundation/Foundation.h>
-
-N/Users/yasui/Desktop/develop/objc-extention/extension/NSArray+random.h
-c000000004D10781800000000000000E7
-t1292924952
-s231
-i<Foundation/Foundation.h>
-
-N/Users/yasui/Desktop/develop/objc-extention/extension/NSData+Hash.h
-c000000004D107829000000000000019D
-t1292924969
-s413
-i<Foundation/Foundation.h>
-i<CommonCrypto/CommonDigest.h>
-
-N/Users/yasui/Desktop/develop/objc-extention/extension/NSDate+RFC1123.h
-c000000004D107829000000000000036D
-t1292924969
-s877
-i<Foundation/Foundation.h>
-
-N/Users/yasui/Desktop/develop/objc-extention/extension/NSDictionary+HTTPQuery.h
-c000000004D1078290000000000000103
-t1292924969
-s259
-i<Foundation/Foundation.h>
-
-N/Users/yasui/Desktop/develop/objc-extention/extension/NSDictionary+PropertyList.h
-c000000004CEFAC4F0000000000000173
-t1290775631
-s371
-i<Foundation/Foundation.h>
-
-N/Users/yasui/Desktop/develop/objc-extention/extension/NSString+Addition.h
-c000000004D10782900000000000004D3
-t1292924969
-s1235
-i<Foundation/Foundation.h>
-
-N/Users/yasui/Desktop/develop/objc-extention/objcextension/../extension/NSArray+Map.h
-c000000004D107829000000000000019A
-t1292924969
-s410
-i<Foundation/Foundation.h>
-
-N/Users/yasui/Desktop/develop/objc-extention/objcextension/../extension/NSArray+Map.m
-c000000004D10785F00000000000003EE
-t1292925023
-s1006
-i"NSArray+Map.h"
-
-N/Users/yasui/Desktop/develop/objc-extention/objcextension/../extension/NSArray+random.h
-c000000004D10781800000000000000E7
-t1292924952
-s231
-i<Foundation/Foundation.h>
-
-N/Users/yasui/Desktop/develop/objc-extention/objcextension/../extension/NSArray+random.m
-c000000004D1085A200000000000001B0
-t1292928418
-s432
-i"NSArray+random.h"
-
-N/Users/yasui/Desktop/develop/objc-extention/objcextension/../extension/NSData+Hash.h
-c000000004D107829000000000000019D
-t1292924969
-s413
-i<Foundation/Foundation.h>
-i<CommonCrypto/CommonDigest.h>
-
-N/Users/yasui/Desktop/develop/objc-extention/objcextension/../extension/NSData+Hash.m
-c000000004D1078460000000000000529
-t1292924998
-s1321
-i"NSData+Hash.h"
-
-N/Users/yasui/Desktop/develop/objc-extention/objcextension/../extension/NSDate+RFC1123.h
-c000000004D107829000000000000036D
-t1292924969
-s877
-i<Foundation/Foundation.h>
-
-N/Users/yasui/Desktop/develop/objc-extention/objcextension/../extension/NSDate+RFC1123.m
-c000000004D107829000000000000089E
-t1292924969
-s2206
-i"NSDate+RFC1123.h"
-
-N/Users/yasui/Desktop/develop/objc-extention/objcextension/../extension/NSDictionary+HTTPQuery.h
-c000000004D1078290000000000000103
-t1292924969
-s259
-i<Foundation/Foundation.h>
-
-N/Users/yasui/Desktop/develop/objc-extention/objcextension/../extension/NSDictionary+HTTPQuery.m
-c000000004D10782900000000000002CC
-t1292924969
-s716
-i"NSDictionary+HTTPQuery.h"
-
-N/Users/yasui/Desktop/develop/objc-extention/objcextension/../extension/NSDictionary+PropertyList.h
-c000000004CEFAC4F0000000000000173
-t1290775631
-s371
-i<Foundation/Foundation.h>
-
-N/Users/yasui/Desktop/develop/objc-extention/objcextension/../extension/NSDictionary+PropertyList.m
-c000000004CF393230000000000000705
-t1291031331
-s1797
-i"NSDictionary+PropertyList.h"
-
-N/Users/yasui/Desktop/develop/objc-extention/objcextension/../extension/NSString+Addition.h
-c000000004D10782900000000000004D3
-t1292924969
-s1235
-i<Foundation/Foundation.h>
-
-N/Users/yasui/Desktop/develop/objc-extention/objcextension/../extension/NSString+Addition.m
-c000000004D10782A0000000000000B63
-t1292924970
-s2915
-i"NSString+Addition.h"
-
-N/Users/yasui/Desktop/develop/objc-extention/objcextension/../extension/OExtension.h
-c000000004D107CFB000000000000015C
-t1292926203
-s348
-i<NSArray+Map.h>
-i<NSArray+random.h>
-i<NSData+Hash.h>
-i<NSDate+RFC1123.h>
-i<NSDictionary+HTTPQuery.h>
-i<NSDictionary+PropertyList.h>
-i<NSString+Addition.h>
-
-N/Users/yasui/Desktop/develop/objc-extention/objcextension/build/Debug/objcExtensionTest.octest
-t1292931850
-s102
-
-N/Users/yasui/Desktop/develop/objc-extention/objcextension/build/Debug/objcExtensionTest.octest/Contents/Info.plist
-t1292926104
-s683
-
-N/Users/yasui/Desktop/develop/objc-extention/objcextension/build/Debug/objcExtensionTest.octest/Contents/MacOS/objcExtensionTest
-t1292931850
-s40584
-
-N/Users/yasui/Desktop/develop/objc-extention/objcextension/build/objcextension.build/Debug/objcExtensionTest.build/Objects-normal/x86_64/NSArray+Map.o
-t1292929048
-s10140
-
-N/Users/yasui/Desktop/develop/objc-extention/objcextension/build/objcextension.build/Debug/objcExtensionTest.build/Objects-normal/x86_64/NSArray+random.o
-t1292929048
-s7656
-
-N/Users/yasui/Desktop/develop/objc-extention/objcextension/build/objcextension.build/Debug/objcExtensionTest.build/Objects-normal/x86_64/NSData+Hash.o
-t1292929048
-s10752
-
-N/Users/yasui/Desktop/develop/objc-extention/objcextension/build/objcextension.build/Debug/objcExtensionTest.build/Objects-normal/x86_64/NSDate+RFC1123.o
-t1292929048
-s13420
-
-N/Users/yasui/Desktop/develop/objc-extention/objcextension/build/objcextension.build/Debug/objcExtensionTest.build/Objects-normal/x86_64/NSDictionary+HTTPQuery.o
-t1292929049
-s10536
-
-N/Users/yasui/Desktop/develop/objc-extention/objcextension/build/objcextension.build/Debug/objcExtensionTest.build/Objects-normal/x86_64/NSDictionary+PropertyList.o
-t1292929049
-s12584
-
-N/Users/yasui/Desktop/develop/objc-extention/objcextension/build/objcextension.build/Debug/objcExtensionTest.build/Objects-normal/x86_64/NSString+Addition.o
-t1292929049
-s17452
-
-N/Users/yasui/Desktop/develop/objc-extention/objcextension/build/objcextension.build/Debug/objcExtensionTest.build/Objects-normal/x86_64/OEUnittest.o
-t1292931850
-s35848
-
-N/Users/yasui/Desktop/develop/objc-extention/objcextension/build/objcextension.build/Debug/objcExtensionTest.build/Objects-normal/x86_64/objcExtensionTest.LinkFileList
-c000000004D10881800000000000004D4
-t1292929048
-s1236
-
-N/Users/yasui/Desktop/develop/objc-extention/objcextension/build/objcextension.build/Debug/objcExtensionTest.build/Script-DABBE58212C0B04300D0F888.sh
-c000000004D107C980000000000000062
-t1292926104
-s98
-
-N/Users/yasui/Desktop/develop/objc-extention/objcextension/unittest/OEUnittest.h
-c000000004D107CE400000000000000E7
-t1292926180
-s231
-i<SenTestingKit/SenTestingKit.h>
-
-N/Users/yasui/Desktop/develop/objc-extention/objcextension/unittest/OEUnittest.m
-c000000004D10929700000000000010B4
-t1292931735
-s4276
-i"OEUnittest.h"
-i"NSArray+Map.h"
-i"NSArray+random.h"
-i"NSData+Hash.h"
-i"NSDate+RFC1123.h"
-i"NSDictionary+HTTPQuery.h"
-i"NSDictionary+PropertyList.h"
-i"NSString+Addition.h"
-
-N/var/folders/r8/r8CIukSTHtmiM3YmpKzNAk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Cocoa-erhzlbuqxcvnqndeenlkfyntovfd/Cocoa.h.gch
-t1292926110
-s54306544
-
-NobjcExtensionTest-Info.plist
-c000000004D1078C300000000000002BC
-t1292925123
-s700
-
-CCheck dependencies
-r0
-lSLF07#2@18"Check dependencies314624649#314624649#0(0"0(0#1#0"8648133504#0"0#
-
-CCompileC build/objcextension.build/Debug/objcExtensionTest.build/Objects-normal/x86_64/NSArray+Map.o /Users/yasui/Desktop/develop/objc-extention/objcextension/../extension/NSArray+Map.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
-s314621848.330401
-e314621848.642648
-r1
-xCompileC
-xbuild/objcextension.build/Debug/objcExtensionTest.build/Objects-normal/x86_64/NSArray+Map.o
-x/Users/yasui/Desktop/develop/objc-extention/objcextension/../extension/NSArray+Map.m
-xnormal
-xx86_64
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@92"Compile /Users/yasui/Desktop/develop/objc-extention/objcextension/../extension/NSArray+Map.m314621848#314621848#0(0"0(0#0#84"/Users/yasui/Desktop/develop/objc-extention/objcextension/../extension/NSArray+Map.m8675030080#1831"    cd /Users/yasui/Desktop/develop/objc-extention/objcextension    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/yasui/Desktop/develop/objc-extention/objcextension/build/objcextension.build/Debug/objcExtensionTest.build/objcExtensionTest-generated-files.hmap -I/Users/yasui/Desktop/develop/objc-extention/objcextension/build/objcextension.build/Debug/objcExtensionTest.build/objcExtensionTest-own-target-headers.hmap -I/Users/yasui/Desktop/develop/objc-extention/objcextension/build/objcextension.build/Debug/objcExtensionTest.build/objcExtensionTest-all-target-headers.hmap -iquote /Users/yasui/Desktop/develop/objc-extention/objcextension/build/objcextension.build/Debug/objcExtensionTest.build/objcExtensionTest-project-headers.hmap -F/Users/yasui/Desktop/develop/objc-extention/objcextension/build/Debug -F/Developer/Library/Frameworks -I/Users/yasui/Desktop/develop/objc-extention/objcextension/build/Debug/include -I/Users/yasui/Desktop/develop/objc-extention/objcextension/build/objcextension.build/Debug/objcExtensionTest.build/DerivedSources/x86_64 -I/Users/yasui/Desktop/develop/objc-extention/objcextension/build/objcextension.build/Debug/objcExtensionTest.build/DerivedSources -include /var/folders/r8/r8CIukSTHtmiM3YmpKzNAk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Cocoa-erhzlbuqxcvnqndeenlkfyntovfd/Cocoa.h -c /Users/yasui/Desktop/develop/objc-extention/objcextension/../extension/NSArray+Map.m -o /Users/yasui/Desktop/develop/objc-extention/objcextension/build/objcextension.build/Debug/objcExtensionTest.build/Objects-normal/x86_64/NSArray+Map.o0#
-
-CCompileC build/objcextension.build/Debug/objcExtensionTest.build/Objects-normal/x86_64/NSArray+random.o /Users/yasui/Desktop/develop/objc-extention/objcextension/../extension/NSArray+random.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
-s314621848.332473
-e314621848.601080
-r1
-xCompileC
-xbuild/objcextension.build/Debug/objcExtensionTest.build/Objects-normal/x86_64/NSArray+random.o
-x/Users/yasui/Desktop/develop/objc-extention/objcextension/../extension/NSArray+random.m
-xnormal
-xx86_64
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@95"Compile /Users/yasui/Desktop/develop/objc-extention/objcextension/../extension/NSArray+random.m314621848#314621848#0(0"0(0#0#87"/Users/yasui/Desktop/develop/objc-extention/objcextension/../extension/NSArray+random.m8673409504#1837"    cd /Users/yasui/Desktop/develop/objc-extention/objcextension    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/yasui/Desktop/develop/objc-extention/objcextension/build/objcextension.build/Debug/objcExtensionTest.build/objcExtensionTest-generated-files.hmap -I/Users/yasui/Desktop/develop/objc-extention/objcextension/build/objcextension.build/Debug/objcExtensionTest.build/objcExtensionTest-own-target-headers.hmap -I/Users/yasui/Desktop/develop/objc-extention/objcextension/build/objcextension.build/Debug/objcExtensionTest.build/objcExtensionTest-all-target-headers.hmap -iquote /Users/yasui/Desktop/develop/objc-extention/objcextension/build/objcextension.build/Debug/objcExtensionTest.build/objcExtensionTest-project-headers.hmap -F/Users/yasui/Desktop/develop/objc-extention/objcextension/build/Debug -F/Developer/Library/Frameworks -I/Users/yasui/Desktop/develop/objc-extention/objcextension/build/Debug/include -I/Users/yasui/Desktop/develop/objc-extention/objcextension/build/objcextension.build/Debug/objcExtensionTest.build/DerivedSources/x86_64 -I/Users/yasui/Desktop/develop/objc-extention/objcextension/build/objcextension.build/Debug/objcExtensionTest.build/DerivedSources -include /var/folders/r8/r8CIukSTHtmiM3YmpKzNAk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Cocoa-erhzlbuqxcvnqndeenlkfyntovfd/Cocoa.h -c /Users/yasui/Desktop/develop/objc-extention/objcextension/../extension/NSArray+random.m -o /Users/yasui/Desktop/develop/objc-extention/objcextension/build/objcextension.build/Debug/objcExtensionTest.build/Objects-normal/x86_64/NSArray+random.o0#
-
-CCompileC build/objcextension.build/Debug/objcExtensionTest.build/Objects-normal/x86_64/NSData+Hash.o /Users/yasui/Desktop/develop/objc-extention/objcextension/../extension/NSData+Hash.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
-s314621848.601222
-e314621848.877259
-r1
-xCompileC
-xbuild/objcextension.build/Debug/objcExtensionTest.build/Objects-normal/x86_64/NSData+Hash.o
-x/Users/yasui/Desktop/develop/objc-extention/objcextension/../extension/NSData+Hash.m
-xnormal
-xx86_64
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@92"Compile /Users/yasui/Desktop/develop/objc-extention/objcextension/../extension/NSData+Hash.m314621848#314621848#0(0"0(0#0#84"/Users/yasui/Desktop/develop/objc-extention/objcextension/../extension/NSData+Hash.m8677803264#1831"    cd /Users/yasui/Desktop/develop/objc-extention/objcextension    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/yasui/Desktop/develop/objc-extention/objcextension/build/objcextension.build/Debug/objcExtensionTest.build/objcExtensionTest-generated-files.hmap -I/Users/yasui/Desktop/develop/objc-extention/objcextension/build/objcextension.build/Debug/objcExtensionTest.build/objcExtensionTest-own-target-headers.hmap -I/Users/yasui/Desktop/develop/objc-extention/objcextension/build/objcextension.build/Debug/objcExtensionTest.build/objcExtensionTest-all-target-headers.hmap -iquote /Users/yasui/Desktop/develop/objc-extention/objcextension/build/objcextension.build/Debug/objcExtensionTest.build/objcExtensionTest-project-headers.hmap -F/Users/yasui/Desktop/develop/objc-extention/objcextension/build/Debug -F/Developer/Library/Frameworks -I/Users/yasui/Desktop/develop/objc-extention/objcextension/build/Debug/include -I/Users/yasui/Desktop/develop/objc-extention/objcextension/build/objcextension.build/Debug/objcExtensionTest.build/DerivedSources/x86_64 -I/Users/yasui/Desktop/develop/objc-extention/objcextension/build/objcextension.build/Debug/objcExtensionTest.build/DerivedSources -include /var/folders/r8/r8CIukSTHtmiM3YmpKzNAk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Cocoa-erhzlbuqxcvnqndeenlkfyntovfd/Cocoa.h -c /Users/yasui/Desktop/develop/objc-extention/objcextension/../extension/NSData+Hash.m -o /Users/yasui/Desktop/develop/objc-extention/objcextension/build/objcextension.build/Debug/objcExtensionTest.build/Objects-normal/x86_64/NSData+Hash.o0#
-
-CCompileC build/objcextension.build/Debug/objcExtensionTest.build/Objects-normal/x86_64/NSDate+RFC1123.o /Users/yasui/Desktop/develop/objc-extention/objcextension/../extension/NSDate+RFC1123.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
-s314621848.642786
-e314621848.963091
-r1
-xCompileC
-xbuild/objcextension.build/Debug/objcExtensionTest.build/Objects-normal/x86_64/NSDate+RFC1123.o
-x/Users/yasui/Desktop/develop/objc-extention/objcextension/../extension/NSDate+RFC1123.m
-xnormal
-xx86_64
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-o/Users/yasui/Desktop/develop/objc-extention/objcextension/../extension/NSDate+RFC1123.h:14: warning: 'HTTP_IF_MODIFIED_SINCE_KEY' defined but not used
-lSLF07#2@95"Compile /Users/yasui/Desktop/develop/objc-extention/objcextension/../extension/NSDate+RFC1123.m314621848#314621848#0(151"/Users/yasui/Desktop/develop/objc-extention/objcextension/../extension/NSDate+RFC1123.h:14: warning: 'HTTP_IF_MODIFIED_SINCE_KEY' defined but not used1(22@49"'HTTP_IF_MODIFIED_SINCE_KEY' defined but not used314621848#0#151#0(6@87"/Users/yasui/Desktop/develop/objc-extention/objcextension/../extension/NSDate+RFC1123.h314617769#14#0#14#0#24"'*' defined but not used0(0#0#87"/Users/yasui/Desktop/develop/objc-extention/objcextension/../extension/NSDate+RFC1123.m8674580896#1837"    cd /Users/yasui/Desktop/develop/objc-extention/objcextension    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/yasui/Desktop/develop/objc-extention/objcextension/build/objcextension.build/Debug/objcExtensionTest.build/objcExtensionTest-generated-files.hmap -I/Users/yasui/Desktop/develop/objc-extention/objcextension/build/objcextension.build/Debug/objcExtensionTest.build/objcExtensionTest-own-target-headers.hmap -I/Users/yasui/Desktop/develop/objc-extention/objcextension/build/objcextension.build/Debug/objcExtensionTest.build/objcExtensionTest-all-target-headers.hmap -iquote /Users/yasui/Desktop/develop/objc-extention/objcextension/build/objcextension.build/Debug/objcExtensionTest.build/objcExtensionTest-project-headers.hmap -F/Users/yasui/Desktop/develop/objc-extention/objcextension/build/Debug -F/Developer/Library/Frameworks -I/Users/yasui/Desktop/develop/objc-extention/objcextension/build/Debug/include -I/Users/yasui/Desktop/develop/objc-extention/objcextension/build/objcextension.build/Debug/objcExtensionTest.build/DerivedSources/x86_64 -I/Users/yasui/Desktop/develop/objc-extention/objcextension/build/objcextension.build/Debug/objcExtensionTest.build/DerivedSources -include /var/folders/r8/r8CIukSTHtmiM3YmpKzNAk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Cocoa-erhzlbuqxcvnqndeenlkfyntovfd/Cocoa.h -c /Users/yasui/Desktop/develop/objc-extention/objcextension/../extension/NSDate+RFC1123.m -o /Users/yasui/Desktop/develop/objc-extention/objcextension/build/objcextension.build/Debug/objcExtensionTest.build/Objects-normal/x86_64/NSDate+RFC1123.o0#
-
-CCompileC build/objcextension.build/Debug/objcExtensionTest.build/Objects-normal/x86_64/NSDictionary+HTTPQuery.o /Users/yasui/Desktop/develop/objc-extention/objcextension/../extension/NSDictionary+HTTPQuery.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
-s314621848.877395
-e314621849.199480
-r1
-xCompileC
-xbuild/objcextension.build/Debug/objcExtensionTest.build/Objects-normal/x86_64/NSDictionary+HTTPQuery.o
-x/Users/yasui/Desktop/develop/objc-extention/objcextension/../extension/NSDictionary+HTTPQuery.m
-xnormal
-xx86_64
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@103"Compile /Users/yasui/Desktop/develop/objc-extention/objcextension/../extension/NSDictionary+HTTPQuery.m314621848#314621849#0(0"0(0#0#95"/Users/yasui/Desktop/develop/objc-extention/objcextension/../extension/NSDictionary+HTTPQuery.m8621473888#1853"    cd /Users/yasui/Desktop/develop/objc-extention/objcextension    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/yasui/Desktop/develop/objc-extention/objcextension/build/objcextension.build/Debug/objcExtensionTest.build/objcExtensionTest-generated-files.hmap -I/Users/yasui/Desktop/develop/objc-extention/objcextension/build/objcextension.build/Debug/objcExtensionTest.build/objcExtensionTest-own-target-headers.hmap -I/Users/yasui/Desktop/develop/objc-extention/objcextension/build/objcextension.build/Debug/objcExtensionTest.build/objcExtensionTest-all-target-headers.hmap -iquote /Users/yasui/Desktop/develop/objc-extention/objcextension/build/objcextension.build/Debug/objcExtensionTest.build/objcExtensionTest-project-headers.hmap -F/Users/yasui/Desktop/develop/objc-extention/objcextension/build/Debug -F/Developer/Library/Frameworks -I/Users/yasui/Desktop/develop/objc-extention/objcextension/build/Debug/include -I/Users/yasui/Desktop/develop/objc-extention/objcextension/build/objcextension.build/Debug/objcExtensionTest.build/DerivedSources/x86_64 -I/Users/yasui/Desktop/develop/objc-extention/objcextension/build/objcextension.build/Debug/objcExtensionTest.build/DerivedSources -include /var/folders/r8/r8CIukSTHtmiM3YmpKzNAk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Cocoa-erhzlbuqxcvnqndeenlkfyntovfd/Cocoa.h -c /Users/yasui/Desktop/develop/objc-extention/objcextension/../extension/NSDictionary+HTTPQuery.m -o /Users/yasui/Desktop/develop/objc-extention/objcextension/build/objcextension.build/Debug/objcExtensionTest.build/Objects-normal/x86_64/NSDictionary+HTTPQuery.o0#
-
-CCompileC build/objcextension.build/Debug/objcExtensionTest.build/Objects-normal/x86_64/NSDictionary+PropertyList.o /Users/yasui/Desktop/develop/objc-extention/objcextension/../extension/NSDictionary+PropertyList.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
-s314621848.963234
-e314621849.278832
-r1
-xCompileC
-xbuild/objcextension.build/Debug/objcExtensionTest.build/Objects-normal/x86_64/NSDictionary+PropertyList.o
-x/Users/yasui/Desktop/develop/objc-extention/objcextension/../extension/NSDictionary+PropertyList.m
-xnormal
-xx86_64
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@106"Compile /Users/yasui/Desktop/develop/objc-extention/objcextension/../extension/NSDictionary+PropertyList.m314621848#314621849#0(0"0(0#0#98"/Users/yasui/Desktop/develop/objc-extention/objcextension/../extension/NSDictionary+PropertyList.m8694428320#1859"    cd /Users/yasui/Desktop/develop/objc-extention/objcextension    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/yasui/Desktop/develop/objc-extention/objcextension/build/objcextension.build/Debug/objcExtensionTest.build/objcExtensionTest-generated-files.hmap -I/Users/yasui/Desktop/develop/objc-extention/objcextension/build/objcextension.build/Debug/objcExtensionTest.build/objcExtensionTest-own-target-headers.hmap -I/Users/yasui/Desktop/develop/objc-extention/objcextension/build/objcextension.build/Debug/objcExtensionTest.build/objcExtensionTest-all-target-headers.hmap -iquote /Users/yasui/Desktop/develop/objc-extention/objcextension/build/objcextension.build/Debug/objcExtensionTest.build/objcExtensionTest-project-headers.hmap -F/Users/yasui/Desktop/develop/objc-extention/objcextension/build/Debug -F/Developer/Library/Frameworks -I/Users/yasui/Desktop/develop/objc-extention/objcextension/build/Debug/include -I/Users/yasui/Desktop/develop/objc-extention/objcextension/build/objcextension.build/Debug/objcExtensionTest.build/DerivedSources/x86_64 -I/Users/yasui/Desktop/develop/objc-extention/objcextension/build/objcextension.build/Debug/objcExtensionTest.build/DerivedSources -include /var/folders/r8/r8CIukSTHtmiM3YmpKzNAk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Cocoa-erhzlbuqxcvnqndeenlkfyntovfd/Cocoa.h -c /Users/yasui/Desktop/develop/objc-extention/objcextension/../extension/NSDictionary+PropertyList.m -o /Users/yasui/Desktop/develop/objc-extention/objcextension/build/objcextension.build/Debug/objcExtensionTest.build/Objects-normal/x86_64/NSDictionary+PropertyList.o0#
-
-CCompileC build/objcextension.build/Debug/objcExtensionTest.build/Objects-normal/x86_64/NSString+Addition.o /Users/yasui/Desktop/develop/objc-extention/objcextension/../extension/NSString+Addition.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
-s314621849.199613
-e314621849.449717
-r1
-xCompileC
-xbuild/objcextension.build/Debug/objcExtensionTest.build/Objects-normal/x86_64/NSString+Addition.o
-x/Users/yasui/Desktop/develop/objc-extention/objcextension/../extension/NSString+Addition.m
-xnormal
-xx86_64
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@98"Compile /Users/yasui/Desktop/develop/objc-extention/objcextension/../extension/NSString+Addition.m314621849#314621849#0(0"0(0#0#90"/Users/yasui/Desktop/develop/objc-extention/objcextension/../extension/NSString+Addition.m8681337760#1843"    cd /Users/yasui/Desktop/develop/objc-extention/objcextension    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/yasui/Desktop/develop/objc-extention/objcextension/build/objcextension.build/Debug/objcExtensionTest.build/objcExtensionTest-generated-files.hmap -I/Users/yasui/Desktop/develop/objc-extention/objcextension/build/objcextension.build/Debug/objcExtensionTest.build/objcExtensionTest-own-target-headers.hmap -I/Users/yasui/Desktop/develop/objc-extention/objcextension/build/objcextension.build/Debug/objcExtensionTest.build/objcExtensionTest-all-target-headers.hmap -iquote /Users/yasui/Desktop/develop/objc-extention/objcextension/build/objcextension.build/Debug/objcExtensionTest.build/objcExtensionTest-project-headers.hmap -F/Users/yasui/Desktop/develop/objc-extention/objcextension/build/Debug -F/Developer/Library/Frameworks -I/Users/yasui/Desktop/develop/objc-extention/objcextension/build/Debug/include -I/Users/yasui/Desktop/develop/objc-extention/objcextension/build/objcextension.build/Debug/objcExtensionTest.build/DerivedSources/x86_64 -I/Users/yasui/Desktop/develop/objc-extention/objcextension/build/objcextension.build/Debug/objcExtensionTest.build/DerivedSources -include /var/folders/r8/r8CIukSTHtmiM3YmpKzNAk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Cocoa-erhzlbuqxcvnqndeenlkfyntovfd/Cocoa.h -c /Users/yasui/Desktop/develop/objc-extention/objcextension/../extension/NSString+Addition.m -o /Users/yasui/Desktop/develop/objc-extention/objcextension/build/objcextension.build/Debug/objcExtensionTest.build/Objects-normal/x86_64/NSString+Addition.o0#
-
-CCompileC build/objcextension.build/Debug/objcExtensionTest.build/Objects-normal/x86_64/OEUnittest.o /Users/yasui/Desktop/develop/objc-extention/objcextension/unittest/OEUnittest.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
-s314624649.816121
-e314624650.383667
-r1
-xCompileC
-xbuild/objcextension.build/Debug/objcExtensionTest.build/Objects-normal/x86_64/OEUnittest.o
-x/Users/yasui/Desktop/develop/objc-extention/objcextension/unittest/OEUnittest.m
-xnormal
-xx86_64
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-o/Users/yasui/Desktop/develop/objc-extention/objcextension/unittest/OEUnittest.m: In function '-[OEUnittest testNsArrayReduce]':
-o/Users/yasui/Desktop/develop/objc-extention/objcextension/unittest/OEUnittest.m:86: warning: incompatible Objective-C types assigning 'struct NSObject *', expected 'struct NSNumber *'
-o/Users/yasui/Desktop/develop/objc-extention/objcextension/unittest/OEUnittest.m:90: warning: incompatible Objective-C types assigning 'struct NSObject *', expected 'struct NSNumber *'
-o/Users/yasui/Desktop/develop/objc-extention/objcextension/unittest/OEUnittest.m:94: warning: incompatible Objective-C types assigning 'struct NSObject *', expected 'struct NSNumber *'
-o/Users/yasui/Desktop/develop/objc-extention/objcextension/unittest/OEUnittest.m: At top level:
-o/Users/yasui/Desktop/develop/objc-extention/objcextension/../extension/NSDate+RFC1123.h:14: warning: 'HTTP_IF_MODIFIED_SINCE_KEY' defined but not used
-lSLF07#2@87"Compile /Users/yasui/Desktop/develop/objc-extention/objcextension/unittest/OEUnittest.m314624649#314624650#0(926"/Users/yasui/Desktop/develop/objc-extention/objcextension/unittest/OEUnittest.m: In function '-[OEUnittest testNsArrayReduce]':/Users/yasui/Desktop/develop/objc-extention/objcextension/unittest/OEUnittest.m:86: warning: incompatible Objective-C types assigning 'struct NSObject *', expected 'struct NSNumber *'/Users/yasui/Desktop/develop/objc-extention/objcextension/unittest/OEUnittest.m:90: warning: incompatible Objective-C types assigning 'struct NSObject *', expected 'struct NSNumber *'/Users/yasui/Desktop/develop/objc-extention/objcextension/unittest/OEUnittest.m:94: warning: incompatible Objective-C types assigning 'struct NSObject *', expected 'struct NSNumber *'/Users/yasui/Desktop/develop/objc-extention/objcextension/unittest/OEUnittest.m: At top level:/Users/yasui/Desktop/develop/objc-extention/objcextension/../extension/NSDate+RFC1123.h:14: warning: 'HTTP_IF_MODIFIED_SINCE_KEY' defined but not used5(22@90"Incompatible Objective-C types assigning 'struct NSObject *', expected 'struct NSNumber *'314624650#128#184#0(6@79"/Users/yasui/Desktop/develop/objc-extention/objcextension/unittest/OEUnittest.m314624535#86#0#86#0#58"incompatible Objective-C types assigning '*', expected '*'0(22@90"Incompatible Objective-C types assigning 'struct NSObject *', expected 'struct NSNumber *'314624650#312#184#0(6@79"/Users/yasui/Desktop/develop/objc-extention/objcextension/unittest/OEUnittest.m314624535#90#0#90#0#58"incompatible Objective-C types assigning '*', expected '*'0(22@90"Incompatible Objective-C types assigning 'struct NSObject *', expected 'struct NSNumber *'314624650#496#184#0(6@79"/Users/yasui/Desktop/develop/objc-extention/objcextension/unittest/OEUnittest.m314624535#94#0#94#0#58"incompatible Objective-C types assigning '*', expected '*'0(23@13"At top level:314624650#680#95#0(6@79"/Users/yasui/Desktop/develop/objc-extention/objcextension/unittest/OEUnittest.m314624535#0#0#0#0#0"0(22@49"'HTTP_IF_MODIFIED_SINCE_KEY' defined but not used314624650#775#151#0(6@87"/Users/yasui/Desktop/develop/objc-extention/objcextension/../extension/NSDate+RFC1123.h314617769#14#0#14#0#24"'*' defined but not used0(0#0#79"/Users/yasui/Desktop/develop/objc-extention/objcextension/unittest/OEUnittest.m8709198752#1825"    cd /Users/yasui/Desktop/develop/objc-extention/objcextension    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/yasui/Desktop/develop/objc-extention/objcextension/build/objcextension.build/Debug/objcExtensionTest.build/objcExtensionTest-generated-files.hmap -I/Users/yasui/Desktop/develop/objc-extention/objcextension/build/objcextension.build/Debug/objcExtensionTest.build/objcExtensionTest-own-target-headers.hmap -I/Users/yasui/Desktop/develop/objc-extention/objcextension/build/objcextension.build/Debug/objcExtensionTest.build/objcExtensionTest-all-target-headers.hmap -iquote /Users/yasui/Desktop/develop/objc-extention/objcextension/build/objcextension.build/Debug/objcExtensionTest.build/objcExtensionTest-project-headers.hmap -F/Users/yasui/Desktop/develop/objc-extention/objcextension/build/Debug -F/Developer/Library/Frameworks -I/Users/yasui/Desktop/develop/objc-extention/objcextension/build/Debug/include -I/Users/yasui/Desktop/develop/objc-extention/objcextension/build/objcextension.build/Debug/objcExtensionTest.build/DerivedSources/x86_64 -I/Users/yasui/Desktop/develop/objc-extention/objcextension/build/objcextension.build/Debug/objcExtensionTest.build/DerivedSources -include /var/folders/r8/r8CIukSTHtmiM3YmpKzNAk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Cocoa-erhzlbuqxcvnqndeenlkfyntovfd/Cocoa.h -c /Users/yasui/Desktop/develop/objc-extention/objcextension/unittest/OEUnittest.m -o /Users/yasui/Desktop/develop/objc-extention/objcextension/build/objcextension.build/Debug/objcExtensionTest.build/Objects-normal/x86_64/OEUnittest.o0#
-
-CLd /Users/yasui/Desktop/develop/objc-extention/objcextension/build/Debug/objcExtensionTest.octest/Contents/MacOS/objcExtensionTest normal x86_64
-s314624650.383782
-e314624650.438255
-r1
-xLd
-x/Users/yasui/Desktop/develop/objc-extention/objcextension/build/Debug/objcExtensionTest.octest/Contents/MacOS/objcExtensionTest
-xnormal
-xx86_64
-lSLF07#2@132"Link /Users/yasui/Desktop/develop/objc-extention/objcextension/build/Debug/objcExtensionTest.octest/Contents/MacOS/objcExtensionTest314624650#314624650#0(0"0(0#0#0"8624406656#751"    cd /Users/yasui/Desktop/develop/objc-extention/objcextension    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/gcc-4.2 -arch x86_64 -bundle -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/yasui/Desktop/develop/objc-extention/objcextension/build/Debug -F/Users/yasui/Desktop/develop/objc-extention/objcextension/build/Debug -F/Developer/Library/Frameworks -filelist /Users/yasui/Desktop/develop/objc-extention/objcextension/build/objcextension.build/Debug/objcExtensionTest.build/Objects-normal/x86_64/objcExtensionTest.LinkFileList -mmacosx-version-min=10.6 -framework Cocoa -framework SenTestingKit -o /Users/yasui/Desktop/develop/objc-extention/objcextension/build/Debug/objcExtensionTest.octest/Contents/MacOS/objcExtensionTest0#
-
-CPhaseScriptExecution スクリプトを実行 /Users/yasui/Desktop/develop/objc-extention/objcextension/build/objcextension.build/Debug/objcExtensionTest.build/Script-DABBE58212C0B04300D0F888.sh
-s314624650.438379
-e314624650.670819
-r1
-xPhaseScriptExecution
-xスクリプトを実行
-x/Users/yasui/Desktop/develop/objc-extention/objcextension/build/objcextension.build/Debug/objcExtensionTest.build/Script-DABBE58212C0B04300D0F888.sh
-o/Developer/Tools/RunPlatformUnitTests.include:412: note: Started tests for architectures 'x86_64'
-o/Developer/Tools/RunPlatformUnitTests.include:419: note: Running tests for architecture 'x86_64' (GC OFF)
-oobjc[4626]: GC: forcing GC OFF because OBJC_DISABLE_GC is set
-oTest Suite '/Users/yasui/Desktop/develop/objc-extention/objcextension/build/Debug/objcExtensionTest.octest(Tests)' started at 2010-12-21 20:44:10 +0900
-oTest Suite 'OEUnittest' started at 2010-12-21 20:44:10 +0900
-oTest Case '-[OEUnittest testNsArrayMap]' started.
-oTest Case '-[OEUnittest testNsArrayMap]' passed (0.000 seconds).
-oTest Case '-[OEUnittest testNsArrayReduce]' started.
-oTest Case '-[OEUnittest testNsArrayReduce]' passed (0.000 seconds).
-oTest Case '-[OEUnittest testNsDataHash]' started.
-oTest Case '-[OEUnittest testNsDataHash]' passed (0.000 seconds).
-oTest Case '-[OEUnittest testNsDataRFC1123]' started.
-oTest Case '-[OEUnittest testNsDataRFC1123]' passed (0.000 seconds).
-oTest Suite 'OEUnittest' finished at 2010-12-21 20:44:10 +0900.
-oExecuted 4 tests, with 0 failures (0 unexpected) in 0.000 (0.001) seconds
-o
-oTest Suite '/Users/yasui/Desktop/develop/objc-extention/objcextension/build/Debug/objcExtensionTest.octest(Tests)' finished at 2010-12-21 20:44:10 +0900.
-oExecuted 4 tests, with 0 failures (0 unexpected) in 0.000 (0.004) seconds
-o
-o/Developer/Tools/RunPlatformUnitTests.include:446: note: Passed tests for architecture 'x86_64' (GC OFF)
-o/Developer/Tools/RunPlatformUnitTests.include:462: note: Completed tests for architectures 'x86_64'
-lSLF07#2@53"Run custom shell script 'スクリプトを実行'314624650#314624650#1(20@49"Run unit tests for architecture 'x86_64' (GC OFF)314624650#314624650#1(20@116"Run test suite /Users/yasui/Desktop/develop/objc-extention/objcextension/build/Debug/objcExtensionTest.octest(Tests)314624650#314624650#1(20@25"Run test suite OEUnittest314624650#314624650#4(20@28"Run test case testNsArrayMap314624650#314624650#0(115"Test Case '-[OEUnittest testNsArrayMap]' started.Test Case '-[OEUnittest testNsArrayMap]' passed (0.000 seconds).0(0#0#0"13"0.000 seconds64"Test Case '-[OEUnittest testNsArrayMap]' passed (0.000 seconds).14"testNsArrayMap20@31"Run test case testNsArrayReduce314624650#314624650#0(121"Test Case '-[OEUnittest testNsArrayReduce]' started.Test Case '-[OEUnittest testNsArrayReduce]' passed (0.000 seconds).0(0#0#0"13"0.000 seconds67"Test Case '-[OEUnittest testNsArrayReduce]' passed (0.000 seconds).17"testNsArrayReduce20@28"Run test case testNsDataHash314624650#314624650#0(115"Test Case '-[OEUnittest testNsDataHash]' started.Test Case '-[OEUnittest testNsDataHash]' passed (0.000 seconds).0(0#0#0"13"0.000 seconds64"Test Case '-[OEUnittest testNsDataHash]' passed (0.000 seconds).14"testNsDataHash20@31"Run test case testNsDataRFC1123314624650#314624650#0(121"Test Case '-[OEUnittest testNsDataRFC1123]' started.Test Case '-[OEUnittest testNsDataRFC1123]' passed (0.000 seconds).0(0#0#0"13"0.000 seconds67"Test Case '-[OEUnittest testNsDataRFC1123]' passed (0.000 seconds).17"testNsDataRFC1123670"Test Suite 'OEUnittest' started at 2010-12-21 20:44:10 +0900Test Case '-[OEUnittest testNsArrayMap]' started.Test Case '-[OEUnittest testNsArrayMap]' passed (0.000 seconds).Test Case '-[OEUnittest testNsArrayReduce]' started.Test Case '-[OEUnittest testNsArrayReduce]' passed (0.000 seconds).Test Case '-[OEUnittest testNsDataHash]' started.Test Case '-[OEUnittest testNsDataHash]' passed (0.000 seconds).Test Case '-[OEUnittest testNsDataRFC1123]' started.Test Case '-[OEUnittest testNsDataRFC1123]' passed (0.000 seconds).Test Suite 'OEUnittest' finished at 2010-12-21 20:44:10 +0900.Executed 4 tests, with 0 failures (0 unexpected) in 0.000 (0.001) seconds0(0#0#23"4 out of 4 tests passed13"0.001 seconds73"Executed 4 tests, with 0 failures (0 unexpected) in 0.000 (0.001) seconds10"OEUnittest1051"Test Suite '/Users/yasui/Desktop/develop/objc-extention/objcextension/build/Debug/objcExtensionTest.octest(Tests)' started at 2010-12-21 20:44:10 +0900Test Suite 'OEUnittest' started at 2010-12-21 20:44:10 +0900Test Case '-[OEUnittest testNsArrayMap]' started.Test Case '-[OEUnittest testNsArrayMap]' passed (0.000 seconds).Test Case '-[OEUnittest testNsArrayReduce]' started.Test Case '-[OEUnittest testNsArrayReduce]' passed (0.000 seconds).Test Case '-[OEUnittest testNsDataHash]' started.Test Case '-[OEUnittest testNsDataHash]' passed (0.000 seconds).Test Case '-[OEUnittest testNsDataRFC1123]' started.Test Case '-[OEUnittest testNsDataRFC1123]' passed (0.000 seconds).Test Suite 'OEUnittest' finished at 2010-12-21 20:44:10 +0900.Executed 4 tests, with 0 failures (0 unexpected) in 0.000 (0.001) secondsTest Suite '/Users/yasui/Desktop/develop/objc-extention/objcextension/build/Debug/objcExtensionTest.octest(Tests)' finished at 2010-12-21 20:44:10 +0900.Executed 4 tests, with 0 failures (0 unexpected) in 0.000 (0.004) seconds0(0#0#23"4 out of 4 tests passed13"0.004 seconds73"Executed 4 tests, with 0 failures (0 unexpected) in 0.000 (0.004) seconds101"/Users/yasui/Desktop/develop/objc-extention/objcextension/build/Debug/objcExtensionTest.octest(Tests)1325"/Developer/Tools/RunPlatformUnitTests.include:419: note: Running tests for architecture 'x86_64' (GC OFF)objc[4626]: GC: forcing GC OFF because OBJC_DISABLE_GC is setTest Suite '/Users/yasui/Desktop/develop/objc-extention/objcextension/build/Debug/objcExtensionTest.octest(Tests)' started at 2010-12-21 20:44:10 +0900Test Suite 'OEUnittest' started at 2010-12-21 20:44:10 +0900Test Case '-[OEUnittest testNsArrayMap]' started.Test Case '-[OEUnittest testNsArrayMap]' passed (0.000 seconds).Test Case '-[OEUnittest testNsArrayReduce]' started.Test Case '-[OEUnittest testNsArrayReduce]' passed (0.000 seconds).Test Case '-[OEUnittest testNsDataHash]' started.Test Case '-[OEUnittest testNsDataHash]' passed (0.000 seconds).Test Case '-[OEUnittest testNsDataRFC1123]' started.Test Case '-[OEUnittest testNsDataRFC1123]' passed (0.000 seconds).Test Suite 'OEUnittest' finished at 2010-12-21 20:44:10 +0900.Executed 4 tests, with 0 failures (0 unexpected) in 0.000 (0.001) secondsTest Suite '/Users/yasui/Desktop/develop/objc-extention/objcextension/build/Debug/objcExtensionTest.octest(Tests)' finished at 2010-12-21 20:44:10 +0900.Executed 4 tests, with 0 failures (0 unexpected) in 0.000 (0.004) seconds/Developer/Tools/RunPlatformUnitTests.include:446: note: Passed tests for architecture 'x86_64' (GC OFF)0(0#0#0"0"104"/Developer/Tools/RunPlatformUnitTests.include:446: note: Passed tests for architecture 'x86_64' (GC OFF)0"1523"/Developer/Tools/RunPlatformUnitTests.include:412: note: Started tests for architectures 'x86_64'/Developer/Tools/RunPlatformUnitTests.include:419: note: Running tests for architecture 'x86_64' (GC OFF)objc[4626]: GC: forcing GC OFF because OBJC_DISABLE_GC is setTest Suite '/Users/yasui/Desktop/develop/objc-extention/objcextension/build/Debug/objcExtensionTest.octest(Tests)' started at 2010-12-21 20:44:10 +0900Test Suite 'OEUnittest' started at 2010-12-21 20:44:10 +0900Test Case '-[OEUnittest testNsArrayMap]' started.Test Case '-[OEUnittest testNsArrayMap]' passed (0.000 seconds).Test Case '-[OEUnittest testNsArrayReduce]' started.Test Case '-[OEUnittest testNsArrayReduce]' passed (0.000 seconds).Test Case '-[OEUnittest testNsDataHash]' started.Test Case '-[OEUnittest testNsDataHash]' passed (0.000 seconds).Test Case '-[OEUnittest testNsDataRFC1123]' started.Test Case '-[OEUnittest testNsDataRFC1123]' passed (0.000 seconds).Test Suite 'OEUnittest' finished at 2010-12-21 20:44:10 +0900.Executed 4 tests, with 0 failures (0 unexpected) in 0.000 (0.001) secondsTest Suite '/Users/yasui/Desktop/develop/objc-extention/objcextension/build/Debug/objcExtensionTest.octest(Tests)' finished at 2010-12-21 20:44:10 +0900.Executed 4 tests, with 0 failures (0 unexpected) in 0.000 (0.004) seconds/Developer/Tools/RunPlatformUnitTests.include:446: note: Passed tests for architecture 'x86_64' (GC OFF)/Developer/Tools/RunPlatformUnitTests.include:462: note: Completed tests for architectures 'x86_64'0(0#0#0"8681211840#17865"    cd /Users/yasui/Desktop/develop/objc-extention/objcextension    setenv ACTION build    setenv ALTERNATE_GROUP staff    setenv ALTERNATE_MODE u+w,go-w,a+rX    setenv ALTERNATE_OWNER yasui    setenv ALWAYS_SEARCH_USER_PATHS NO    setenv APPLE_INTERNAL_DEVELOPER_DIR /AppleInternal/Developer    setenv APPLE_INTERNAL_DIR /AppleInternal    setenv APPLE_INTERNAL_DOCUMENTATION_DIR /AppleInternal/Documentation    setenv APPLE_INTERNAL_LIBRARY_DIR /AppleInternal/Library    setenv APPLE_INTERNAL_TOOLS /AppleInternal/Developer/Tools    setenv APPLY_RULES_IN_COPY_FILES NO    setenv ARCHS x86_64    setenv ARCHS_STANDARD_32_64_BIT "x86_64 i386 ppc"    setenv ARCHS_STANDARD_32_BIT "i386 ppc"    setenv ARCHS_STANDARD_64_BIT x86_64    setenv BUILD_COMPONENTS "headers build"    setenv BUILD_DIR /Users/yasui/Desktop/develop/objc-extention/objcextension/build    setenv BUILD_ROOT /Users/yasui/Desktop/develop/objc-extention/objcextension/build    setenv BUILD_STYLE Debug    setenv BUILD_VARIANTS normal    setenv BUILT_PRODUCTS_DIR /Users/yasui/Desktop/develop/objc-extention/objcextension/build/Debug    setenv CACHE_ROOT /var/folders/r8/r8CIukSTHtmiM3YmpKzNAk+++TI/-Caches-/com.apple.Xcode.501    setenv CCHROOT /var/folders/r8/r8CIukSTHtmiM3YmpKzNAk+++TI/-Caches-/com.apple.Xcode.501    setenv CHMOD /bin/chmod    setenv CHOWN /usr/sbin/chown    setenv CLASS_FILE_DIR /Users/yasui/Desktop/develop/objc-extention/objcextension/build/objcextension.build/Debug/objcExtensionTest.build/JavaClasses    setenv CLEAN_PRECOMPS YES    setenv CLONE_HEADERS NO    setenv CODESIGNING_FOLDER_PATH /Users/yasui/Desktop/develop/objc-extention/objcextension/build/Debug/objcExtensionTest.octest    setenv CODE_SIGNING_ALLOWED YES    setenv COMMAND_MODE legacy    setenv COMPOSITE_SDK_DIRS /var/folders/r8/r8CIukSTHtmiM3YmpKzNAk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs    setenv CONFIGURATION Debug    setenv CONFIGURATION_BUILD_DIR /Users/yasui/Desktop/develop/objc-extention/objcextension/build/Debug    setenv CONFIGURATION_TEMP_DIR /Users/yasui/Desktop/develop/objc-extention/objcextension/build/objcextension.build/Debug    setenv CONTENTS_FOLDER_PATH objcExtensionTest.octest/Contents    setenv COPYING_PRESERVES_HFS_DATA NO    setenv COPY_PHASE_STRIP NO    setenv COPY_RESOURCES_FROM_STATIC_FRAMEWORKS YES    setenv CP /bin/cp    setenv CURRENT_ARCH x86_64    setenv CURRENT_VARIANT normal    setenv DEAD_CODE_STRIPPING NO    setenv DEBUGGING_SYMBOLS YES    setenv DEBUG_INFORMATION_FORMAT dwarf    setenv DEPLOYMENT_LOCATION NO    setenv DEPLOYMENT_POSTPROCESSING NO    setenv DERIVED_FILES_DIR /Users/yasui/Desktop/develop/objc-extention/objcextension/build/objcextension.build/Debug/objcExtensionTest.build/DerivedSources    setenv DERIVED_FILE_DIR /Users/yasui/Desktop/develop/objc-extention/objcextension/build/objcextension.build/Debug/objcExtensionTest.build/DerivedSources    setenv DERIVED_SOURCES_DIR /Users/yasui/Desktop/develop/objc-extention/objcextension/build/objcextension.build/Debug/objcExtensionTest.build/DerivedSources    setenv DEVELOPER_APPLICATIONS_DIR /Developer/Applications    setenv DEVELOPER_BIN_DIR /Developer/usr/bin    setenv DEVELOPER_DIR /Developer    setenv DEVELOPER_FRAMEWORKS_DIR /Developer/Library/Frameworks    setenv DEVELOPER_FRAMEWORKS_DIR_QUOTED "\"/Developer/Library/Frameworks\""    setenv DEVELOPER_LIBRARY_DIR /Developer/Library    setenv DEVELOPER_SDK_DIR /Developer/SDKs    setenv DEVELOPER_TOOLS_DIR /Developer/Tools    setenv DEVELOPER_USR_DIR /Developer/usr    setenv DEVELOPMENT_LANGUAGE English    setenv DOCUMENTATION_FOLDER_PATH objcExtensionTest.octest/Contents/Resources/English.lproj/Documentation    setenv DO_HEADER_SCANNING_IN_JAM NO    setenv DSTROOT /tmp/objcextension.dst    setenv DWARF_DSYM_FILE_NAME objcExtensionTest.octest.dSYM    setenv DWARF_DSYM_FOLDER_PATH /Users/yasui/Desktop/develop/objc-extention/objcextension/build/Debug    setenv ENABLE_HEADER_DEPENDENCIES YES    setenv ENABLE_OPENMP_SUPPORT NO    setenv EXCLUDED_INSTALLSRC_SUBDIRECTORY_PATTERNS ".svn .git CVS"    setenv EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES "*.nib *.lproj *.framework *.gch (*) CVS .svn .git *.xcodeproj *.xcode *.pbproj *.pbxproj"    setenv EXECUTABLES_FOLDER_PATH objcExtensionTest.octest/Contents/Executables    setenv EXECUTABLE_FOLDER_PATH objcExtensionTest.octest/Contents/MacOS    setenv EXECUTABLE_NAME objcExtensionTest    setenv EXECUTABLE_PATH objcExtensionTest.octest/Contents/MacOS/objcExtensionTest    setenv FILE_LIST /Users/yasui/Desktop/develop/objc-extention/objcextension/build/objcextension.build/Debug/objcExtensionTest.build/Objects/LinkFileList    setenv FIXED_FILES_DIR /Users/yasui/Desktop/develop/objc-extention/objcextension/build/objcextension.build/Debug/objcExtensionTest.build/FixedFiles    setenv FRAMEWORKS_FOLDER_PATH objcExtensionTest.octest/Contents/Frameworks    setenv FRAMEWORK_FLAG_PREFIX -framework    setenv FRAMEWORK_SEARCH_PATHS "\"/Users/yasui/Desktop/develop/objc-extention/objcextension/build/Debug\" /Developer/Library/Frameworks"    setenv FRAMEWORK_VERSION A    setenv FULL_PRODUCT_NAME objcExtensionTest.octest    setenv GCC3_VERSION 3.3    setenv GCC_C_LANGUAGE_STANDARD gnu99    setenv GCC_DYNAMIC_NO_PIC NO    setenv GCC_ENABLE_FIX_AND_CONTINUE NO    setenv GCC_ENABLE_OBJC_EXCEPTIONS YES    setenv GCC_INLINES_ARE_PRIVATE_EXTERN YES    setenv GCC_MODEL_TUNING G5    setenv GCC_OPTIMIZATION_LEVEL 0    setenv GCC_PFE_FILE_C_DIALECTS "c objective-c c++ objective-c++"    setenv GCC_PRECOMPILE_PREFIX_HEADER YES    setenv GCC_PREFIX_HEADER /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h    setenv GCC_TREAT_WARNINGS_AS_ERRORS NO    setenv GCC_VERSION 4.2    setenv GCC_WARN_ABOUT_RETURN_TYPE YES    setenv GCC_WARN_UNUSED_VARIABLE YES    setenv GENERATE_MASTER_OBJECT_FILE NO    setenv GENERATE_PKGINFO_FILE NO    setenv GENERATE_PROFILING_CODE NO    setenv GID 20    setenv GROUP staff    setenv HEADERMAP_INCLUDES_FLAT_ENTRIES_FOR_TARGET_BEING_BUILT YES    setenv HEADERMAP_INCLUDES_FRAMEWORK_ENTRIES_FOR_ALL_PRODUCT_TYPES YES    setenv HEADERMAP_INCLUDES_NONPUBLIC_NONPRIVATE_HEADERS YES    setenv HEADERMAP_INCLUDES_PROJECT_HEADERS YES    setenv HEADER_SEARCH_PATHS "\"/Users/yasui/Desktop/develop/objc-extention/objcextension/build/Debug/include\" "    setenv ICONV /usr/bin/iconv    setenv INFOPLIST_EXPAND_BUILD_SETTINGS YES    setenv INFOPLIST_FILE objcExtensionTest-Info.plist    setenv INFOPLIST_OUTPUT_FORMAT same-as-input    setenv INFOPLIST_PATH objcExtensionTest.octest/Contents/Info.plist    setenv INFOPLIST_PREPROCESS NO    setenv INFOSTRINGS_PATH objcExtensionTest.octest/Contents/Resources/English.lproj/InfoPlist.strings    setenv INSTALL_DIR /tmp/objcextension.dst/Users/yasui/Library/Bundles    setenv INSTALL_GROUP staff    setenv INSTALL_MODE_FLAG u+w,go-w,a+rX    setenv INSTALL_OWNER yasui    setenv INSTALL_PATH /Users/yasui/Library/Bundles    setenv INSTALL_ROOT /tmp/objcextension.dst    setenv JAVAC_DEFAULT_FLAGS "-J-Xms64m -J-XX:NewSize=4M -J-Dfile.encoding=UTF8"    setenv JAVA_APP_STUB /System/Library/Frameworks/JavaVM.framework/Resources/MacOS/JavaApplicationStub    setenv JAVA_ARCHIVE_CLASSES YES    setenv JAVA_ARCHIVE_TYPE JAR    setenv JAVA_COMPILER /usr/bin/javac    setenv JAVA_FOLDER_PATH objcExtensionTest.octest/Contents/Resources/Java    setenv JAVA_FRAMEWORK_RESOURCES_DIRS Resources    setenv JAVA_JAR_FLAGS cv    setenv JAVA_SOURCE_SUBDIR .    setenv JAVA_USE_DEPENDENCIES YES    setenv JAVA_ZIP_FLAGS -urg    setenv JIKES_DEFAULT_FLAGS "+E +OLDCSO"    setenv KEEP_PRIVATE_EXTERNS NO    setenv LD_GENERATE_MAP_FILE NO    setenv LD_MAP_FILE_PATH /Users/yasui/Desktop/develop/objc-extention/objcextension/build/objcextension.build/Debug/objcExtensionTest.build/objcExtensionTest-LinkMap-normal-x86_64.txt    setenv LD_OPENMP_FLAGS -fopenmp    setenv LEX /Developer/usr/bin/lex    setenv LIBRARY_FLAG_NOSPACE YES    setenv LIBRARY_FLAG_PREFIX -l    setenv LIBRARY_SEARCH_PATHS "\"/Users/yasui/Desktop/develop/objc-extention/objcextension/build/Debug\" "    setenv LINKER_DISPLAYS_MANGLED_NAMES NO    setenv LINK_FILE_LIST_normal_x86_64 /Users/yasui/Desktop/develop/objc-extention/objcextension/build/objcextension.build/Debug/objcExtensionTest.build/Objects-normal/x86_64/objcExtensionTest.LinkFileList    setenv LINK_WITH_STANDARD_LIBRARIES YES    setenv LOCALIZED_RESOURCES_FOLDER_PATH objcExtensionTest.octest/Contents/Resources/English.lproj    setenv LOCAL_ADMIN_APPS_DIR /Applications/Utilities    setenv LOCAL_APPS_DIR /Applications    setenv LOCAL_DEVELOPER_DIR /Library/Developer    setenv LOCAL_LIBRARY_DIR /Library    setenv MACH_O_TYPE mh_bundle    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv MAC_OS_X_VERSION_ACTUAL 1065    setenv MAC_OS_X_VERSION_MAJOR 1060    setenv MAC_OS_X_VERSION_MINOR 0605    setenv NATIVE_ARCH i386    setenv NATIVE_ARCH_32_BIT i386    setenv NATIVE_ARCH_64_BIT x86_64    setenv NATIVE_ARCH_ACTUAL x86_64    setenv NO_COMMON YES    setenv OBJECT_FILE_DIR /Users/yasui/Desktop/develop/objc-extention/objcextension/build/objcextension.build/Debug/objcExtensionTest.build/Objects    setenv OBJECT_FILE_DIR_normal /Users/yasui/Desktop/develop/objc-extention/objcextension/build/objcextension.build/Debug/objcExtensionTest.build/Objects-normal    setenv OBJROOT /Users/yasui/Desktop/develop/objc-extention/objcextension/build    setenv ONLY_ACTIVE_ARCH YES    setenv OPTIMIZATION_LEVEL 0    setenv OS MACOS    setenv OSAC /usr/bin/osacompile    setenv OTHER_LDFLAGS "-framework Cocoa -framework SenTestingKit"    setenv PACKAGE_TYPE com.apple.package-type.wrapper    setenv PASCAL_STRINGS YES    setenv PATH_PREFIXES_EXCLUDED_FROM_HEADER_DEPENDENCIES "/usr/include /usr/local/include /System/Library/Frameworks /System/Library/PrivateFrameworks /Developer/Headers /Developer/SDKs /Developer/Platforms"    setenv PBDEVELOPMENTPLIST_PATH objcExtensionTest.octest/Contents/pbdevelopment.plist    setenv PFE_FILE_C_DIALECTS objective-c    setenv PKGINFO_FILE_PATH /Users/yasui/Desktop/develop/objc-extention/objcextension/build/objcextension.build/Debug/objcExtensionTest.build/PkgInfo    setenv PKGINFO_PATH objcExtensionTest.octest/Contents/PkgInfo    setenv PLATFORM_DEVELOPER_APPLICATIONS_DIR /Developer/Applications    setenv PLATFORM_DEVELOPER_BIN_DIR /Developer/usr/bin    setenv PLATFORM_DEVELOPER_LIBRARY_DIR /Developer/Library    setenv PLATFORM_DEVELOPER_SDK_DIR /Developer/SDKs    setenv PLATFORM_DEVELOPER_TOOLS_DIR /Developer/Tools    setenv PLATFORM_DEVELOPER_USR_DIR /Developer/usr    setenv PLATFORM_NAME macosx    setenv PLATFORM_PRODUCT_BUILD_VERSION 10M2423    setenv PLIST_FILE_OUTPUT_FORMAT same-as-input    setenv PLUGINS_FOLDER_PATH objcExtensionTest.octest/Contents/PlugIns    setenv PREBINDING NO    setenv PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR YES    setenv PRECOMP_DESTINATION_DIR /Users/yasui/Desktop/develop/objc-extention/objcextension/build/objcextension.build/Debug/objcExtensionTest.build/PrefixHeaders    setenv PRESERVE_DEAD_CODE_INITS_AND_TERMS NO    setenv PRIVATE_HEADERS_FOLDER_PATH objcExtensionTest.octest/Contents/PrivateHeaders    setenv PRODUCT_NAME objcExtensionTest    setenv PRODUCT_SETTINGS_PATH /Users/yasui/Desktop/develop/objc-extention/objcextension/objcExtensionTest-Info.plist    setenv PRODUCT_TYPE com.apple.product-type.bundle    setenv PROFILING_CODE NO    setenv PROJECT objcextension    setenv PROJECT_DERIVED_FILE_DIR /Users/yasui/Desktop/develop/objc-extention/objcextension/build/objcextension.build/DerivedSources    setenv PROJECT_DIR /Users/yasui/Desktop/develop/objc-extention/objcextension    setenv PROJECT_FILE_PATH /Users/yasui/Desktop/develop/objc-extention/objcextension/objcextension.xcodeproj    setenv PROJECT_NAME objcextension    setenv PROJECT_TEMP_DIR /Users/yasui/Desktop/develop/objc-extention/objcextension/build/objcextension.build    setenv PUBLIC_HEADERS_FOLDER_PATH objcExtensionTest.octest/Contents/Headers    setenv RECURSIVE_SEARCH_PATHS_FOLLOW_SYMLINKS YES    setenv REMOVE_CVS_FROM_RESOURCES YES    setenv REMOVE_GIT_FROM_RESOURCES YES    setenv REMOVE_SVN_FROM_RESOURCES YES    setenv REZ_COLLECTOR_DIR /Users/yasui/Desktop/develop/objc-extention/objcextension/build/objcextension.build/Debug/objcExtensionTest.build/ResourceManagerResources    setenv REZ_OBJECTS_DIR /Users/yasui/Desktop/develop/objc-extention/objcextension/build/objcextension.build/Debug/objcExtensionTest.build/ResourceManagerResources/Objects    setenv REZ_SEARCH_PATHS "\"/Users/yasui/Desktop/develop/objc-extention/objcextension/build/Debug\" "    setenv RUN_CLANG_STATIC_ANALYZER NO    setenv SCAN_ALL_SOURCE_FILES_FOR_INCLUDES NO    setenv SCRIPTS_FOLDER_PATH objcExtensionTest.octest/Contents/Resources/Scripts    setenv SCRIPT_INPUT_FILE_COUNT 0    setenv SCRIPT_OUTPUT_FILE_COUNT 0    setenv SDKROOT /Developer/SDKs/MacOSX10.6.sdk    setenv SDK_DIR /Developer/SDKs/MacOSX10.6.sdk    setenv SDK_NAME macosx10.6    setenv SED /usr/bin/sed    setenv SEPARATE_STRIP NO    setenv SEPARATE_SYMBOL_EDIT NO    setenv SET_DIR_MODE_OWNER_GROUP YES    setenv SET_FILE_MODE_OWNER_GROUP NO    setenv SHARED_DERIVED_FILE_DIR /Users/yasui/Desktop/develop/objc-extention/objcextension/build/Debug/DerivedSources    setenv SHARED_FRAMEWORKS_FOLDER_PATH objcExtensionTest.octest/Contents/SharedFrameworks    setenv SHARED_PRECOMPS_DIR /var/folders/r8/r8CIukSTHtmiM3YmpKzNAk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders    setenv SHARED_SUPPORT_FOLDER_PATH objcExtensionTest.octest/Contents/SharedSupport    setenv SKIP_INSTALL NO    setenv SOURCE_ROOT /Users/yasui/Desktop/develop/objc-extention/objcextension    setenv SRCROOT /Users/yasui/Desktop/develop/objc-extention/objcextension    setenv STANDARD_C_PLUS_PLUS_LIBRARY_TYPE dynamic    setenv STRINGS_FILE_OUTPUT_ENCODING UTF-16    setenv STRIP_INSTALLED_PRODUCT YES    setenv STRIP_STYLE non-global    setenv SYMBOL_REPOSITORY_DIR /Users/yasui/Desktop/develop/objc-extention/objcextension/build/objcextension.build/Debug/objcExtensionTest.build/SymbolRepositories    setenv SYMROOT /Users/yasui/Desktop/develop/objc-extention/objcextension/build    setenv SYSTEM_ADMIN_APPS_DIR /Applications/Utilities    setenv SYSTEM_APPS_DIR /Applications    setenv SYSTEM_CORE_SERVICES_DIR /System/Library/CoreServices    setenv SYSTEM_DEMOS_DIR /Applications/Extras    setenv SYSTEM_DEVELOPER_APPS_DIR /Developer/Applications    setenv SYSTEM_DEVELOPER_BIN_DIR /Developer/usr/bin    setenv SYSTEM_DEVELOPER_DEMOS_DIR "/Developer/Applications/Utilities/Built Examples"    setenv SYSTEM_DEVELOPER_DIR /Developer    setenv SYSTEM_DEVELOPER_DOC_DIR "/Developer/ADC Reference Library"    setenv SYSTEM_DEVELOPER_GRAPHICS_TOOLS_DIR "/Developer/Applications/Graphics Tools"    setenv SYSTEM_DEVELOPER_JAVA_TOOLS_DIR "/Developer/Applications/Java Tools"    setenv SYSTEM_DEVELOPER_PERFORMANCE_TOOLS_DIR "/Developer/Applications/Performance Tools"    setenv SYSTEM_DEVELOPER_RELEASENOTES_DIR "/Developer/ADC Reference Library/releasenotes"    setenv SYSTEM_DEVELOPER_TOOLS /Developer/Tools    setenv SYSTEM_DEVELOPER_TOOLS_DOC_DIR "/Developer/ADC Reference Library/documentation/DeveloperTools"    setenv SYSTEM_DEVELOPER_TOOLS_RELEASENOTES_DIR "/Developer/ADC Reference Library/releasenotes/DeveloperTools"    setenv SYSTEM_DEVELOPER_USR_DIR /Developer/usr    setenv SYSTEM_DEVELOPER_UTILITIES_DIR /Developer/Applications/Utilities    setenv SYSTEM_DOCUMENTATION_DIR /Library/Documentation    setenv SYSTEM_LIBRARY_DIR /System/Library    setenv TARGETNAME objcExtensionTest    setenv TARGET_BUILD_DIR /Users/yasui/Desktop/develop/objc-extention/objcextension/build/Debug    setenv TARGET_NAME objcExtensionTest    setenv TARGET_TEMP_DIR /Users/yasui/Desktop/develop/objc-extention/objcextension/build/objcextension.build/Debug/objcExtensionTest.build    setenv TEMP_DIR /Users/yasui/Desktop/develop/objc-extention/objcextension/build/objcextension.build/Debug/objcExtensionTest.build    setenv TEMP_FILES_DIR /Users/yasui/Desktop/develop/objc-extention/objcextension/build/objcextension.build/Debug/objcExtensionTest.build    setenv TEMP_FILE_DIR /Users/yasui/Desktop/develop/objc-extention/objcextension/build/objcextension.build/Debug/objcExtensionTest.build    setenv TEMP_ROOT /Users/yasui/Desktop/develop/objc-extention/objcextension/build    setenv UID 501    setenv UNLOCALIZED_RESOURCES_FOLDER_PATH objcExtensionTest.octest/Contents/Resources    setenv UNSTRIPPED_PRODUCT NO    setenv USER yasui    setenv USER_APPS_DIR /Users/yasui/Applications    setenv USER_LIBRARY_DIR /Users/yasui/Library    setenv USE_DYNAMIC_NO_PIC YES    setenv USE_HEADERMAP YES    setenv USE_HEADER_SYMLINKS NO    setenv VALIDATE_PRODUCT NO    setenv VALID_ARCHS "i386 ppc ppc64 ppc7400 ppc970 x86_64"    setenv VERBOSE_PBXCP NO    setenv VERSIONPLIST_PATH objcExtensionTest.octest/Contents/version.plist    setenv VERSION_INFO_BUILDER yasui    setenv VERSION_INFO_FILE objcExtensionTest_vers.c    setenv VERSION_INFO_STRING "\"@(#)PROGRAM:objcExtensionTest  PROJECT:objcextension-\""    setenv WRAPPER_EXTENSION octest    setenv WRAPPER_NAME objcExtensionTest.octest    setenv WRAPPER_SUFFIX .octest    setenv XCODE_APP_SUPPORT_DIR /Developer/Library/Xcode    setenv XCODE_PRODUCT_BUILD_VERSION 10M2423    setenv XCODE_VERSION_ACTUAL 0325    setenv XCODE_VERSION_MAJOR 0300    setenv XCODE_VERSION_MINOR 0320    setenv YACC /Developer/usr/bin/yacc    setenv _REAL_SDKROOT macosx10.6    /bin/sh -c /Users/yasui/Desktop/develop/objc-extention/objcextension/build/objcextension.build/Debug/objcExtensionTest.build/Script-DABBE58212C0B04300D0F888.sh0#
-
-CProcessInfoPlistFile /Users/yasui/Desktop/develop/objc-extention/objcextension/build/Debug/objcExtensionTest.octest/Contents/Info.plist objcExtensionTest-Info.plist
-s314618904.212779
-e314618904.216108
-r1
-xProcessInfoPlistFile
-x/Users/yasui/Desktop/develop/objc-extention/objcextension/build/Debug/objcExtensionTest.octest/Contents/Info.plist
-xobjcExtensionTest-Info.plist
-lSLF07#2@36"Process objcExtensionTest-Info.plist314618904#314618904#0(0"0(0#0#86"/Users/yasui/Desktop/develop/objc-extention/objcextension/objcExtensionTest-Info.plist8711949120#279"    cd /Users/yasui/Desktop/develop/objc-extention/objcextension    builtin-infoPlistUtility objcExtensionTest-Info.plist -expandbuildsettings -platform macosx -o /Users/yasui/Desktop/develop/objc-extention/objcextension/build/Debug/objcExtensionTest.octest/Contents/Info.plist0#
-
-CProcessPCH /var/folders/r8/r8CIukSTHtmiM3YmpKzNAk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Cocoa-erhzlbuqxcvnqndeenlkfyntovfd/Cocoa.h.gch /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h normal x86_64 objective-c com.apple.compilers.gcc.4_2
-s314618904.216274
-e314618910.339406
-r1
-xProcessPCH
-x/var/folders/r8/r8CIukSTHtmiM3YmpKzNAk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Cocoa-erhzlbuqxcvnqndeenlkfyntovfd/Cocoa.h.gch
-x/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h
-xnormal
-xx86_64
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@99"Precompile /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h314618904#314618910#0(0"0(0#0#88"/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h8709536448#1687"    cd /Users/yasui/Desktop/develop/objc-extention/objcextension    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c-header -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/yasui/Desktop/develop/objc-extention/objcextension/build/objcextension.build/Debug/objcExtensionTest.build/objcExtensionTest-generated-files.hmap -I/Users/yasui/Desktop/develop/objc-extention/objcextension/build/objcextension.build/Debug/objcExtensionTest.build/objcExtensionTest-own-target-headers.hmap -I/Users/yasui/Desktop/develop/objc-extention/objcextension/build/objcextension.build/Debug/objcExtensionTest.build/objcExtensionTest-all-target-headers.hmap -iquote /Users/yasui/Desktop/develop/objc-extention/objcextension/build/objcextension.build/Debug/objcExtensionTest.build/objcExtensionTest-project-headers.hmap -F/Users/yasui/Desktop/develop/objc-extention/objcextension/build/Debug -F/Developer/Library/Frameworks -I/Users/yasui/Desktop/develop/objc-extention/objcextension/build/Debug/include -I/Users/yasui/Desktop/develop/objc-extention/objcextension/build/objcextension.build/Debug/objcExtensionTest.build/DerivedSources/x86_64 -I/Users/yasui/Desktop/develop/objc-extention/objcextension/build/objcextension.build/Debug/objcExtensionTest.build/DerivedSources -c /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h -o /var/folders/r8/r8CIukSTHtmiM3YmpKzNAk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Cocoa-erhzlbuqxcvnqndeenlkfyntovfd/Cocoa.h.gch0#
-
-CTouch /Users/yasui/Desktop/develop/objc-extention/objcextension/build/Debug/objcExtensionTest.octest
-s314624650.670917
-e314624650.675749
-r1
-xTouch
-x/Users/yasui/Desktop/develop/objc-extention/objcextension/build/Debug/objcExtensionTest.octest
-lSLF07#2@100"Touch /Users/yasui/Desktop/develop/objc-extention/objcextension/build/Debug/objcExtensionTest.octest314624650#314624650#0(0"0(0#0#0"8649538720#182"    cd /Users/yasui/Desktop/develop/objc-extention/objcextension    /usr/bin/touch -c /Users/yasui/Desktop/develop/objc-extention/objcextension/build/Debug/objcExtensionTest.octest0#
-
