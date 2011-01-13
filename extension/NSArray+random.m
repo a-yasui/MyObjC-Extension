@@ -12,8 +12,8 @@
 @implementation NSArray (Random)
 - (id) getRandomObject
 {
-    if ([self count] == 0)
-        return nil;
+    if ([self count] == 0) return nil;
+    if ([self count] == 1) return [self objectAtIndex:0];
     
     srandom([[NSDate date] timeIntervalSince1970]);
     

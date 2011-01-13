@@ -11,9 +11,6 @@
 #import <Foundation/Foundation.h>
 
 
-static NSString const * HTTP_IF_MODIFIED_SINCE_KEY = @"If-Modified-Since";
-
-
 /** Category on NSDate to support rfc1123 formatted date strings.
  http://blog.mro.name/2009/08/nsdateformatter-http-header/ and
  http://www.w3.org/Protocols/rfc2616/rfc2616-sec3.html#sec3.3.1

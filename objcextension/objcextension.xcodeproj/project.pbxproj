@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		8DC2EF530486A6940098B216 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C1666FE841158C02AAC07 /* InfoPlist.strings */; };
+		DA75FF5212DF5C6B00843DF7 /* NSString+URLEscape.h in Headers */ = {isa = PBXBuildFile; fileRef = DA75FF5012DF5C6B00843DF7 /* NSString+URLEscape.h */; };
+		DA75FF5312DF5C6B00843DF7 /* NSString+URLEscape.m in Sources */ = {isa = PBXBuildFile; fileRef = DA75FF5112DF5C6B00843DF7 /* NSString+URLEscape.m */; };
+		DA75FF5412DF5C6B00843DF7 /* NSString+URLEscape.m in Sources */ = {isa = PBXBuildFile; fileRef = DA75FF5112DF5C6B00843DF7 /* NSString+URLEscape.m */; };
 		DABBE55412C0AF4300D0F888 /* NSArray+Map.h in Headers */ = {isa = PBXBuildFile; fileRef = DABBE54612C0AF4300D0F888 /* NSArray+Map.h */; };
 		DABBE55512C0AF4300D0F888 /* NSArray+Map.m in Sources */ = {isa = PBXBuildFile; fileRef = DABBE54712C0AF4300D0F888 /* NSArray+Map.m */; };
 		DABBE55612C0AF4300D0F888 /* NSArray+random.h in Headers */ = {isa = PBXBuildFile; fileRef = DABBE54812C0AF4300D0F888 /* NSArray+random.h */; };
@@ -50,6 +53,8 @@
 		32DBCF5E0370ADEE00C91783 /* objcextension_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = objcextension_Prefix.pch; sourceTree = "<group>"; };
 		8DC2EF5A0486A6940098B216 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8DC2EF5B0486A6940098B216 /* objcextension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = objcextension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA75FF5012DF5C6B00843DF7 /* NSString+URLEscape.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+URLEscape.h"; sourceTree = "<group>"; };
+		DA75FF5112DF5C6B00843DF7 /* NSString+URLEscape.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+URLEscape.m"; sourceTree = "<group>"; };
 		DABBE54612C0AF4300D0F888 /* NSArray+Map.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Map.h"; sourceTree = "<group>"; };
 		DABBE54712C0AF4300D0F888 /* NSArray+Map.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Map.m"; sourceTree = "<group>"; };
 		DABBE54812C0AF4300D0F888 /* NSArray+random.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+random.h"; sourceTree = "<group>"; };
@@ -167,6 +172,8 @@
 		DABBE54512C0AF4300D0F888 /* extension */ = {
 			isa = PBXGroup;
 			children = (
+				DA75FF5012DF5C6B00843DF7 /* NSString+URLEscape.h */,
+				DA75FF5112DF5C6B00843DF7 /* NSString+URLEscape.m */,
 				DABBE54612C0AF4300D0F888 /* NSArray+Map.h */,
 				DABBE54712C0AF4300D0F888 /* NSArray+Map.m */,
 				DABBE54812C0AF4300D0F888 /* NSArray+random.h */,
@@ -211,6 +218,7 @@
 				DABBE55E12C0AF4300D0F888 /* NSDictionary+PropertyList.h in Headers */,
 				DABBE56012C0AF4300D0F888 /* NSString+Addition.h in Headers */,
 				DABBE71612C0B19900D0F888 /* OExtension.h in Headers */,
+				DA75FF5212DF5C6B00843DF7 /* NSString+URLEscape.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -327,6 +335,7 @@
 				DABBE55D12C0AF4300D0F888 /* NSDictionary+HTTPQuery.m in Sources */,
 				DABBE55F12C0AF4300D0F888 /* NSDictionary+PropertyList.m in Sources */,
 				DABBE56112C0AF4300D0F888 /* NSString+Addition.m in Sources */,
+				DA75FF5312DF5C6B00843DF7 /* NSString+URLEscape.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -342,6 +351,7 @@
 				DABBE7A312C0BF8F00D0F888 /* NSDictionary+PropertyList.m in Sources */,
 				DABBE7A412C0BF8F00D0F888 /* NSString+Addition.m in Sources */,
 				DABBE71412C0B17E00D0F888 /* OEUnittest.m in Sources */,
+				DA75FF5412DF5C6B00843DF7 /* NSString+URLEscape.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

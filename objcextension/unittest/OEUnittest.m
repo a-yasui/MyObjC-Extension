@@ -124,5 +124,13 @@
 
 
 - (void) testNsDataRFC1123
-{}
+{
+
+}
+
+
+- (void) testNsStringURLEscapes
+{
+}
+
 @end
