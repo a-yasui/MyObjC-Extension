@@ -26,10 +26,11 @@ static NSDateFormatter* rfcFormatter = nil;
         rfcFormatter.locale = [[[NSLocale alloc] initWithLocaleIdentifier:@"en_US"] autorelease];
     }
     
-    NSArray* dates = [NSArray arrayWithObjects:@"EEE',' dd MMM yyyy HH':'mm':'ss z",
-                      @"EEEE',' dd'-'MMM'-'yy HH':'mm':'ss z",
-                      @"yyyy'-'MM'-'dd'T'HH':'mm':'ssZZZ",
-                      @"EEE MMM d HH':'mm':'ss yyyy",
+    NSArray* dates = [NSArray arrayWithObjects:
+                      @"EEE',' dd MMM yyyy HH':'mm':'ss z",    // RFC1123
+                      @"EEEE',' dd'-'MMM'-'yy HH':'mm':'ss z", // RFC850
+                      @"yyyy'-'MM'-'dd'T'HH':'mm':'ssZZZ",     // ISO8610
+                      @"EEE MMM d HH':'mm':'ss yyyy",          // asctime
                       nil];
     
     for (NSString* dataformat in dates)
@@ -43,7 +44,7 @@ static NSDateFormatter* rfcFormatter = nil;
     }
     
 result:
-    [_v release], _v = nil;
+    if (_v) [_v release], _v = nil;
     return result;
 }
 
