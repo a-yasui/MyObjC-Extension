@@ -74,7 +74,6 @@
 		DABBE71212C0B17E00D0F888 /* OEUnittest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OEUnittest.h; path = unittest/OEUnittest.h; sourceTree = "<group>"; };
 		DABBE71312C0B17E00D0F888 /* OEUnittest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OEUnittest.m; path = unittest/OEUnittest.m; sourceTree = "<group>"; };
 		DABBE71512C0B19900D0F888 /* OExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OExtension.h; sourceTree = "<group>"; };
-		DABBE7E012C0CE8B00D0F888 /* README.rst */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = README.rst; path = ../README.rst; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,7 +113,6 @@
 				0867D69AFE84028FC02AAC07 /* External Frameworks and Libraries */,
 				034768DFFF38A50411DB9C8B /* Products */,
 				DABBE58512C0B04300D0F888 /* objcExtensionTest-Info.plist */,
-				DABBE7E012C0CE8B00D0F888 /* README.rst */,
 			);
 			name = objcextension;
 			sourceTree = "<group>";
