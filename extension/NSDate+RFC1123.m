@@ -3,62 +3,48 @@
 //  kisa
 //
 //  Created by 安井 惇 on 10/06/23.
-//  Copyright 2010 __MyCompanyName__. All rights reserved.
+//  Copyright 2010,2011 __MyCompanyName__. All rights reserved.
 //
 
 #import "NSDate+RFC1123.h"
+
+static NSDateFormatter* rfcFormatter = nil;
 
 @implementation NSDate (RFC1123)
 
 +(NSDate*)dateFromRFC1123:(NSString*)value_
 {
+    NSString* _v = [value_ copy];
+    NSDate* result = nil;
+    
     if(value_ == nil)
-        return nil;
-    static NSDateFormatter *rfc1123 = nil;
-    if(rfc1123 == nil)
-    {
-        rfc1123 = [[NSDateFormatter alloc] init];
-        rfc1123.locale = [[[NSLocale alloc] initWithLocaleIdentifier:@"en_US"] autorelease];
-        rfc1123.timeZone = [NSTimeZone timeZoneWithAbbreviation:@"GMT"];
-        rfc1123.dateFormat = @"EEE',' dd MMM yyyy HH':'mm':'ss z";
-    }
-    NSDate *ret = [rfc1123 dateFromString:value_];
-    if(ret != nil)
-        return ret;
+        goto result;
     
-    static NSDateFormatter *rfc850 = nil;
-    if(rfc850 == nil)
+    if (rfcFormatter == nil)
     {
-        rfc850 = [[NSDateFormatter alloc] init];
-        rfc850.locale = rfc1123.locale;
-        rfc850.timeZone = rfc1123.timeZone;
-        rfc850.dateFormat = @"EEEE',' dd'-'MMM'-'yy HH':'mm':'ss z";
+        rfcFormatter = [[NSDateFormatter alloc] init];
+        rfcFormatter.locale = [[[NSLocale alloc] initWithLocaleIdentifier:@"en_US"] autorelease];
     }
-    ret = [rfc850 dateFromString:value_];
-    if(ret != nil)
-        return ret;
     
-    static NSDateFormatter *iso8610 = nil;
-    if (iso8610 == nil)
-    {
-        iso8610 = [[NSDateFormatter alloc] init];
-        iso8610.locale = rfc1123.locale;
-        iso8610.timeZone = rfc1123.timeZone;
-        iso8610.dateFormat = @"yyyy'-'MM'-'dd'T'HH':'mm':'ssZZZ";
-    }
-    ret = [iso8610 dateFromString:value_];
-    if (ret != nil)
-        return ret;
+    NSArray* dates = [NSArray arrayWithObjects:@"EEE',' dd MMM yyyy HH':'mm':'ss z",
+                      @"EEEE',' dd'-'MMM'-'yy HH':'mm':'ss z",
+                      @"yyyy'-'MM'-'dd'T'HH':'mm':'ssZZZ",
+                      @"EEE MMM d HH':'mm':'ss yyyy",
+                      nil];
     
-    static NSDateFormatter *asctime = nil;
-    if(asctime == nil)
+    for (NSString* dataformat in dates)
     {
-        asctime = [[NSDateFormatter alloc] init];
-        asctime.locale = rfc1123.locale;
-        asctime.timeZone = rfc1123.timeZone;
-        asctime.dateFormat = @"EEE MMM d HH':'mm':'ss yyyy";
+        rfcFormatter.dateFormat = dataformat;
+        result = [rfcFormatter dateFromString:_v];
+        if (result)
+        {
+            goto result;
+        }
     }
-    return [asctime dateFromString:value_];
+    
+result:
+    [_v release], _v = nil;
+    return result;
 }
 
 -(NSString*)rfc1123String
