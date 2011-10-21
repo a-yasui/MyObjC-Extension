@@ -3,7 +3,7 @@
 //  kisa
 //
 //  Created by 安井 惇 on 10/05/24.
-//  Copyright 2010 __MyCompanyName__. All rights reserved.
+//  Copyright 2010 a.yasui <a.yasui+github@gmail.com>. All rights reserved.
 //
 // see, http://stackoverflow.com/questions/652300/using-md5-hash-on-a-string-in-cocoa
 //

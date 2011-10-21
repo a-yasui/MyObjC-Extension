@@ -3,7 +3,7 @@
 //  kisa
 //
 //  Created by 安井 惇 on 10/06/23.
-//  Copyright 2010,2011 __MyCompanyName__. All rights reserved.
+//  Copyright 2010,2011 a.yasui <a.yasui+github@gmail.com>. All rights reserved.
 //
 
 #import "NSDate+RFC1123.h"

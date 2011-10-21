@@ -3,7 +3,7 @@
 //  kisa
 //
 //  Created by 安井 惇 on 10/04/15.
-//  Copyright 2010 __MyCompanyName__. All rights reserved.
+//  Copyright 2010 a.yasui <a.yasui+github@gmail.com>. All rights reserved.
 //
 
 #import "NSDictionary+HTTPQuery.h"
@@ -23,7 +23,7 @@
     
     NSData* data = [[NSData alloc] initWithData:
                     [[arr componentsJoinedByString:@"&"]
-                     dataUsingEncoding:NSASCIIStringEncoding]];
+                     dataUsingEncoding:NSUTF8StringEncoding]];
     [arr release];
     return [data autorelease];
 }
