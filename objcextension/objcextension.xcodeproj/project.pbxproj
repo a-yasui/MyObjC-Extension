@@ -43,26 +43,26 @@
 		DA03476C1451ECE100035373 /* OExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = DABBE71512C0B19900D0F888 /* OExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DA03476E1451ED7100035373 /* libATYSExt.h in Headers */ = {isa = PBXBuildFile; fileRef = DA03476D1451ED7100035373 /* libATYSExt.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DA03476F1451EDAA00035373 /* libATYSExt.h in Headers */ = {isa = PBXBuildFile; fileRef = DA03476D1451ED7100035373 /* libATYSExt.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DA75FF5212DF5C6B00843DF7 /* NSString+URLEscape.h in Headers */ = {isa = PBXBuildFile; fileRef = DA75FF5012DF5C6B00843DF7 /* NSString+URLEscape.h */; };
+		DA75FF5212DF5C6B00843DF7 /* NSString+URLEscape.h in Headers */ = {isa = PBXBuildFile; fileRef = DA75FF5012DF5C6B00843DF7 /* NSString+URLEscape.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		DA75FF5312DF5C6B00843DF7 /* NSString+URLEscape.m in Sources */ = {isa = PBXBuildFile; fileRef = DA75FF5112DF5C6B00843DF7 /* NSString+URLEscape.m */; };
 		DA75FF5412DF5C6B00843DF7 /* NSString+URLEscape.m in Sources */ = {isa = PBXBuildFile; fileRef = DA75FF5112DF5C6B00843DF7 /* NSString+URLEscape.m */; };
-		DABBE55412C0AF4300D0F888 /* NSArray+Map.h in Headers */ = {isa = PBXBuildFile; fileRef = DABBE54612C0AF4300D0F888 /* NSArray+Map.h */; };
+		DABBE55412C0AF4300D0F888 /* NSArray+Map.h in Headers */ = {isa = PBXBuildFile; fileRef = DABBE54612C0AF4300D0F888 /* NSArray+Map.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		DABBE55512C0AF4300D0F888 /* NSArray+Map.m in Sources */ = {isa = PBXBuildFile; fileRef = DABBE54712C0AF4300D0F888 /* NSArray+Map.m */; };
-		DABBE55612C0AF4300D0F888 /* NSArray+random.h in Headers */ = {isa = PBXBuildFile; fileRef = DABBE54812C0AF4300D0F888 /* NSArray+random.h */; };
+		DABBE55612C0AF4300D0F888 /* NSArray+random.h in Headers */ = {isa = PBXBuildFile; fileRef = DABBE54812C0AF4300D0F888 /* NSArray+random.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		DABBE55712C0AF4300D0F888 /* NSArray+random.m in Sources */ = {isa = PBXBuildFile; fileRef = DABBE54912C0AF4300D0F888 /* NSArray+random.m */; };
-		DABBE55812C0AF4300D0F888 /* NSData+Hash.h in Headers */ = {isa = PBXBuildFile; fileRef = DABBE54A12C0AF4300D0F888 /* NSData+Hash.h */; };
+		DABBE55812C0AF4300D0F888 /* NSData+Hash.h in Headers */ = {isa = PBXBuildFile; fileRef = DABBE54A12C0AF4300D0F888 /* NSData+Hash.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		DABBE55912C0AF4300D0F888 /* NSData+Hash.m in Sources */ = {isa = PBXBuildFile; fileRef = DABBE54B12C0AF4300D0F888 /* NSData+Hash.m */; };
-		DABBE55A12C0AF4300D0F888 /* NSDate+RFC1123.h in Headers */ = {isa = PBXBuildFile; fileRef = DABBE54C12C0AF4300D0F888 /* NSDate+RFC1123.h */; };
+		DABBE55A12C0AF4300D0F888 /* NSDate+RFC1123.h in Headers */ = {isa = PBXBuildFile; fileRef = DABBE54C12C0AF4300D0F888 /* NSDate+RFC1123.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		DABBE55B12C0AF4300D0F888 /* NSDate+RFC1123.m in Sources */ = {isa = PBXBuildFile; fileRef = DABBE54D12C0AF4300D0F888 /* NSDate+RFC1123.m */; };
-		DABBE55C12C0AF4300D0F888 /* NSDictionary+HTTPQuery.h in Headers */ = {isa = PBXBuildFile; fileRef = DABBE54E12C0AF4300D0F888 /* NSDictionary+HTTPQuery.h */; };
+		DABBE55C12C0AF4300D0F888 /* NSDictionary+HTTPQuery.h in Headers */ = {isa = PBXBuildFile; fileRef = DABBE54E12C0AF4300D0F888 /* NSDictionary+HTTPQuery.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		DABBE55D12C0AF4300D0F888 /* NSDictionary+HTTPQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = DABBE54F12C0AF4300D0F888 /* NSDictionary+HTTPQuery.m */; };
-		DABBE55E12C0AF4300D0F888 /* NSDictionary+PropertyList.h in Headers */ = {isa = PBXBuildFile; fileRef = DABBE55012C0AF4300D0F888 /* NSDictionary+PropertyList.h */; };
+		DABBE55E12C0AF4300D0F888 /* NSDictionary+PropertyList.h in Headers */ = {isa = PBXBuildFile; fileRef = DABBE55012C0AF4300D0F888 /* NSDictionary+PropertyList.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		DABBE55F12C0AF4300D0F888 /* NSDictionary+PropertyList.m in Sources */ = {isa = PBXBuildFile; fileRef = DABBE55112C0AF4300D0F888 /* NSDictionary+PropertyList.m */; };
-		DABBE56012C0AF4300D0F888 /* NSString+Addition.h in Headers */ = {isa = PBXBuildFile; fileRef = DABBE55212C0AF4300D0F888 /* NSString+Addition.h */; };
+		DABBE56012C0AF4300D0F888 /* NSString+Addition.h in Headers */ = {isa = PBXBuildFile; fileRef = DABBE55212C0AF4300D0F888 /* NSString+Addition.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		DABBE56112C0AF4300D0F888 /* NSString+Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = DABBE55312C0AF4300D0F888 /* NSString+Addition.m */; };
 		DABBE58D12C0B09500D0F888 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0867D69BFE84028FC02AAC07 /* Foundation.framework */; };
 		DABBE71412C0B17E00D0F888 /* OEUnittest.m in Sources */ = {isa = PBXBuildFile; fileRef = DABBE71312C0B17E00D0F888 /* OEUnittest.m */; };
-		DABBE71612C0B19900D0F888 /* OExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = DABBE71512C0B19900D0F888 /* OExtension.h */; };
+		DABBE71612C0B19900D0F888 /* OExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = DABBE71512C0B19900D0F888 /* OExtension.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		DABBE79E12C0BF8F00D0F888 /* NSArray+Map.m in Sources */ = {isa = PBXBuildFile; fileRef = DABBE54712C0AF4300D0F888 /* NSArray+Map.m */; };
 		DABBE79F12C0BF8F00D0F888 /* NSArray+random.m in Sources */ = {isa = PBXBuildFile; fileRef = DABBE54912C0AF4300D0F888 /* NSArray+random.m */; };
 		DABBE7A012C0BF8F00D0F888 /* NSData+Hash.m in Sources */ = {isa = PBXBuildFile; fileRef = DABBE54B12C0AF4300D0F888 /* NSData+Hash.m */; };
@@ -741,6 +741,7 @@
 				DA03474A1451ECC600035373 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DABBE58812C0B04400D0F888 /* Build configuration list for PBXNativeTarget "objcExtensionTest" */ = {
 			isa = XCConfigurationList;
