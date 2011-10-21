@@ -6,8 +6,43 @@
 	objectVersion = 45;
 	objects = {
 
+/* Begin PBXAggregateTarget section */
+		DA03472A1451EAC400035373 /* ATYSExt_iOS_framework */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = DA03472B1451EAC400035373 /* Build configuration list for PBXAggregateTarget "ATYSExt_iOS_framework" */;
+			buildPhases = (
+				DA0347351451EB2A00035373 /* ShellScript */,
+			);
+			dependencies = (
+			);
+			name = ATYSExt_iOS_framework;
+			productName = iOSFrameworkBuild;
+		};
+/* End PBXAggregateTarget section */
+
 /* Begin PBXBuildFile section */
 		8DC2EF530486A6940098B216 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C1666FE841158C02AAC07 /* InfoPlist.strings */; };
+		DA0347411451ECC600035373 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA0347401451ECC600035373 /* Foundation.framework */; };
+		DA0347471451ECC600035373 /* ATYSExt.m in Sources */ = {isa = PBXBuildFile; fileRef = DA0347461451ECC600035373 /* ATYSExt.m */; };
+		DA03475C1451ECE100035373 /* NSString+URLEscape.h in Headers */ = {isa = PBXBuildFile; fileRef = DA75FF5012DF5C6B00843DF7 /* NSString+URLEscape.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DA03475D1451ECE100035373 /* NSString+URLEscape.m in Sources */ = {isa = PBXBuildFile; fileRef = DA75FF5112DF5C6B00843DF7 /* NSString+URLEscape.m */; };
+		DA03475E1451ECE100035373 /* NSArray+Map.h in Headers */ = {isa = PBXBuildFile; fileRef = DABBE54612C0AF4300D0F888 /* NSArray+Map.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DA03475F1451ECE100035373 /* NSArray+Map.m in Sources */ = {isa = PBXBuildFile; fileRef = DABBE54712C0AF4300D0F888 /* NSArray+Map.m */; };
+		DA0347601451ECE100035373 /* NSArray+random.h in Headers */ = {isa = PBXBuildFile; fileRef = DABBE54812C0AF4300D0F888 /* NSArray+random.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DA0347611451ECE100035373 /* NSArray+random.m in Sources */ = {isa = PBXBuildFile; fileRef = DABBE54912C0AF4300D0F888 /* NSArray+random.m */; };
+		DA0347621451ECE100035373 /* NSData+Hash.h in Headers */ = {isa = PBXBuildFile; fileRef = DABBE54A12C0AF4300D0F888 /* NSData+Hash.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DA0347631451ECE100035373 /* NSData+Hash.m in Sources */ = {isa = PBXBuildFile; fileRef = DABBE54B12C0AF4300D0F888 /* NSData+Hash.m */; };
+		DA0347641451ECE100035373 /* NSDate+RFC1123.h in Headers */ = {isa = PBXBuildFile; fileRef = DABBE54C12C0AF4300D0F888 /* NSDate+RFC1123.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DA0347651451ECE100035373 /* NSDate+RFC1123.m in Sources */ = {isa = PBXBuildFile; fileRef = DABBE54D12C0AF4300D0F888 /* NSDate+RFC1123.m */; };
+		DA0347661451ECE100035373 /* NSDictionary+HTTPQuery.h in Headers */ = {isa = PBXBuildFile; fileRef = DABBE54E12C0AF4300D0F888 /* NSDictionary+HTTPQuery.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DA0347671451ECE100035373 /* NSDictionary+HTTPQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = DABBE54F12C0AF4300D0F888 /* NSDictionary+HTTPQuery.m */; };
+		DA0347681451ECE100035373 /* NSDictionary+PropertyList.h in Headers */ = {isa = PBXBuildFile; fileRef = DABBE55012C0AF4300D0F888 /* NSDictionary+PropertyList.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DA0347691451ECE100035373 /* NSDictionary+PropertyList.m in Sources */ = {isa = PBXBuildFile; fileRef = DABBE55112C0AF4300D0F888 /* NSDictionary+PropertyList.m */; };
+		DA03476A1451ECE100035373 /* NSString+Addition.h in Headers */ = {isa = PBXBuildFile; fileRef = DABBE55212C0AF4300D0F888 /* NSString+Addition.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DA03476B1451ECE100035373 /* NSString+Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = DABBE55312C0AF4300D0F888 /* NSString+Addition.m */; };
+		DA03476C1451ECE100035373 /* OExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = DABBE71512C0B19900D0F888 /* OExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DA03476E1451ED7100035373 /* libATYSExt.h in Headers */ = {isa = PBXBuildFile; fileRef = DA03476D1451ED7100035373 /* libATYSExt.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DA03476F1451EDAA00035373 /* libATYSExt.h in Headers */ = {isa = PBXBuildFile; fileRef = DA03476D1451ED7100035373 /* libATYSExt.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DA75FF5212DF5C6B00843DF7 /* NSString+URLEscape.h in Headers */ = {isa = PBXBuildFile; fileRef = DA75FF5012DF5C6B00843DF7 /* NSString+URLEscape.h */; };
 		DA75FF5312DF5C6B00843DF7 /* NSString+URLEscape.m in Sources */ = {isa = PBXBuildFile; fileRef = DA75FF5112DF5C6B00843DF7 /* NSString+URLEscape.m */; };
 		DA75FF5412DF5C6B00843DF7 /* NSString+URLEscape.m in Sources */ = {isa = PBXBuildFile; fileRef = DA75FF5112DF5C6B00843DF7 /* NSString+URLEscape.m */; };
@@ -53,6 +88,12 @@
 		32DBCF5E0370ADEE00C91783 /* objcextension_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = objcextension_Prefix.pch; sourceTree = "<group>"; };
 		8DC2EF5A0486A6940098B216 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8DC2EF5B0486A6940098B216 /* objcextension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = objcextension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA03473E1451ECC600035373 /* libATYSExt.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libATYSExt.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA0347401451ECC600035373 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DA0347441451ECC600035373 /* ATYSExt-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ATYSExt-Prefix.pch"; sourceTree = "<group>"; };
+		DA0347451451ECC600035373 /* ATYSExt.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ATYSExt.h; sourceTree = "<group>"; };
+		DA0347461451ECC600035373 /* ATYSExt.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ATYSExt.m; sourceTree = "<group>"; };
+		DA03476D1451ED7100035373 /* libATYSExt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = libATYSExt.h; sourceTree = "<group>"; };
 		DA75FF5012DF5C6B00843DF7 /* NSString+URLEscape.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+URLEscape.h"; sourceTree = "<group>"; };
 		DA75FF5112DF5C6B00843DF7 /* NSString+URLEscape.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+URLEscape.m"; sourceTree = "<group>"; };
 		DABBE54612C0AF4300D0F888 /* NSArray+Map.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Map.h"; sourceTree = "<group>"; };
@@ -85,6 +126,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		DA03473B1451ECC600035373 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA0347411451ECC600035373 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		DABBE58112C0B04300D0F888 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -100,6 +149,7 @@
 			children = (
 				8DC2EF5B0486A6940098B216 /* objcextension.framework */,
 				DABBE58412C0B04300D0F888 /* objcExtensionTest.octest */,
+				DA03473E1451ECC600035373 /* libATYSExt.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -111,6 +161,8 @@
 				32C88DFF0371C24200C91783 /* Other Sources */,
 				089C1665FE841158C02AAC07 /* Resources */,
 				0867D69AFE84028FC02AAC07 /* External Frameworks and Libraries */,
+				DA0347421451ECC600035373 /* ATYSExt */,
+				DA03473F1451ECC600035373 /* Frameworks */,
 				034768DFFF38A50411DB9C8B /* Products */,
 				DABBE58512C0B04300D0F888 /* objcExtensionTest-Info.plist */,
 			);
@@ -167,6 +219,32 @@
 			name = "Other Sources";
 			sourceTree = "<group>";
 		};
+		DA03473F1451ECC600035373 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DA0347401451ECC600035373 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DA0347421451ECC600035373 /* ATYSExt */ = {
+			isa = PBXGroup;
+			children = (
+				DA0347451451ECC600035373 /* ATYSExt.h */,
+				DA0347461451ECC600035373 /* ATYSExt.m */,
+				DA0347431451ECC600035373 /* Supporting Files */,
+			);
+			path = ATYSExt;
+			sourceTree = "<group>";
+		};
+		DA0347431451ECC600035373 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DA0347441451ECC600035373 /* ATYSExt-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		DABBE54512C0AF4300D0F888 /* extension */ = {
 			isa = PBXGroup;
 			children = (
@@ -187,6 +265,7 @@
 				DABBE55212C0AF4300D0F888 /* NSString+Addition.h */,
 				DABBE55312C0AF4300D0F888 /* NSString+Addition.m */,
 				DABBE71512C0B19900D0F888 /* OExtension.h */,
+				DA03476D1451ED7100035373 /* libATYSExt.h */,
 			);
 			name = extension;
 			path = ../extension;
@@ -217,6 +296,24 @@
 				DABBE56012C0AF4300D0F888 /* NSString+Addition.h in Headers */,
 				DABBE71612C0B19900D0F888 /* OExtension.h in Headers */,
 				DA75FF5212DF5C6B00843DF7 /* NSString+URLEscape.h in Headers */,
+				DA03476E1451ED7100035373 /* libATYSExt.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA03473C1451ECC600035373 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA03475C1451ECE100035373 /* NSString+URLEscape.h in Headers */,
+				DA03475E1451ECE100035373 /* NSArray+Map.h in Headers */,
+				DA0347601451ECE100035373 /* NSArray+random.h in Headers */,
+				DA0347621451ECE100035373 /* NSData+Hash.h in Headers */,
+				DA0347641451ECE100035373 /* NSDate+RFC1123.h in Headers */,
+				DA0347661451ECE100035373 /* NSDictionary+HTTPQuery.h in Headers */,
+				DA0347681451ECE100035373 /* NSDictionary+PropertyList.h in Headers */,
+				DA03476A1451ECE100035373 /* NSString+Addition.h in Headers */,
+				DA03476C1451ECE100035373 /* OExtension.h in Headers */,
+				DA03476F1451EDAA00035373 /* libATYSExt.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -242,6 +339,23 @@
 			productName = objcextension;
 			productReference = 8DC2EF5B0486A6940098B216 /* objcextension.framework */;
 			productType = "com.apple.product-type.framework";
+		};
+		DA03473D1451ECC600035373 /* ATYSExt */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA0347481451ECC600035373 /* Build configuration list for PBXNativeTarget "ATYSExt" */;
+			buildPhases = (
+				DA03473A1451ECC600035373 /* Sources */,
+				DA03473B1451ECC600035373 /* Frameworks */,
+				DA03473C1451ECC600035373 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ATYSExt;
+			productName = ATYSExt;
+			productReference = DA03473E1451ECC600035373 /* libATYSExt.a */;
+			productType = "com.apple.product-type.library.static";
 		};
 		DABBE58312C0B04300D0F888 /* objcExtensionTest */ = {
 			isa = PBXNativeTarget;
@@ -283,6 +397,8 @@
 			targets = (
 				8DC2EF4F0486A6940098B216 /* objcextension */,
 				DABBE58312C0B04300D0F888 /* objcExtensionTest */,
+				DA03472A1451EAC400035373 /* ATYSExt_iOS_framework */,
+				DA03473D1451ECC600035373 /* ATYSExt */,
 			);
 		};
 /* End PBXProject section */
@@ -306,6 +422,19 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		DA0347351451EB2A00035373 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "#\n# Create the iOS Library Framework.\n#\n# Reference: http://cocoadays.blogspot.com/2010/11/ios-static-library-5-framework.html\n# Copyright (c) 2011 a.yasui <a.yasui+github@gmail.com>\n#\n#--------------------------------------------------------------------\necho \"[0] Framework: Preparing ...\"\n#--------------------------------------------------------------------\nTARGET_NAME=\"ATYSExt\"\nFRAMEWORK_NAME=\"lib${TARGET_NAME}\"\nBUILD_TARGET_NAME=$FRAMEWORK_NAME\nFRAMEWORK_VERSION_NUMBER=\"1.0\"\nFRAMEWORK_VERSION=A\nFRAMEWORK_BUILD_PATH=\"${TARGET_BUILD_DIR}\"\nFRAMEWORK_DIR=\"${FRAMEWORK_BUILD_PATH}/${FRAMEWORK_NAME}.framework\"\nPACKAGENAME=\"${FRAMEWORK_NAME}.${FRAMEWORK_VERSION_NUMBER}.zip\"\nINSTALL_DIR=\"${PROJECT_DIR}/iOSframework-${CONFIGURATION}/\"\n[ ! -d $INSTALL_DIR ] && mkdir -p $INSTALL_DIR;\nFRAMEWORK_INSTALL_DIR=\"${INSTALL_DIR}/${FRAMEWORK_NAME}.framework\"\nPARENT_PLATFORM=\"${PARENT_PLATFORM}\"\n\n\n#--------------------------------------------------------------------\necho \"[0] check the already installed?\"\n#--------------------------------------------------------------------\nif [ -d \"${FRAMEWORK_INSTALL_DIR}\" ]; then\nrm -rf ${FRAMEWORK_INSTALL_DIR};\necho \" Delete file ${FRAMEWORK_INSTALL_DIR}.\"\nfi\n\necho \"TARGET_BUILD_DIR: ${TARGET_BUILD_DIR}\"\n\n#--------------------------------------------------------------------\necho \"[1] Framework: Building libraries ...\"\n#--------------------------------------------------------------------\nxcodebuild -target ${TARGET_NAME} clean;\nxcodebuild -configuration ${CONFIGURATION} -target ${TARGET_NAME} \\\n-sdk iphonesimulator${IPHONEOS_DEPLOYMENT_TARGET} \\\nSYMROOT=\"${SYMROOT}\" DSTROOT=\"${FRAMEWORK_BUILD_PATH}\" install\n[ $? != 0 ] && exit 1\n\nxcodebuild -configuration ${CONFIGURATION} -target ${TARGET_NAME} \\\n-sdk iphoneos${IPHONEOS_DEPLOYMENT_TARGET} \\\nSYMROOT=\"${SYMROOT}\" DSTROOT=\"${FRAMEWORK_BUILD_PATH}\" install\n[ $? != 0 ] && exit 1\n#  DSTROOT=\"${FRAMEWORK_BUILD_PATH}\"\n#echo \"Framework: Cleaning framework...\"\n#[ -d \"${FRAMEWORK_BUILD_PATH}\" ] && rm -rf \"${FRAMEWORK_BUILD_PATH}\"\n\nrm -rf ${FRAMEWORK_DIR};\n\necho \"Already install framework is cleanning...\"\n[ -d \"${FRAMEWORK_INSTALL_DIR}\" ] && rm -rf \"${FRAMEWORK_INSTALL_DIR}\"\n\n#--------------------------------------------------------------------\necho \"[2] Framework: Setting up directories...\"\n#--------------------------------------------------------------------\nmkdir -p ${FRAMEWORK_DIR}/Versions/${FRAMEWORK_VERSION}/{Resources,Headers}\necho \"mkdir -p ${FRAMEWORK_DIR}/Versions/${FRAMEWORK_VERSION}/{Resources,Headers}\"\n\n#--------------------------------------------------------------------\necho \"[3] Framework: Creating symlinks...\"\n#--------------------------------------------------------------------\nln -s ${FRAMEWORK_VERSION} ${FRAMEWORK_DIR}/Versions/Current\nln -s Versions/Current/Headers ${FRAMEWORK_DIR}/Headers\nln -s Versions/Current/Resources ${FRAMEWORK_DIR}/Resources\nln -s Versions/Current/${FRAMEWORK_NAME} ${FRAMEWORK_DIR}/${FRAMEWORK_NAME}\n\n#--------------------------------------------------------------------\necho \"[4] Framework: Creating library...\"\n#--------------------------------------------------------------------\necho \"Framework_build_path: ${FRAMEWORK_BUILD_PATH}\"\necho \"sourceroot: ${SRCROOT}\"\necho \"BUILD_ROOT: ${BUILD_ROOT}\"\n\nlipo -create \\\n${BUILD_ROOT}/${CONFIGURATION}-iphoneos/${FRAMEWORK_NAME}.a \\\n${BUILD_ROOT}/${CONFIGURATION}-iphonesimulator/${FRAMEWORK_NAME}.a \\\n-o \"${FRAMEWORK_DIR}/Versions/Current/${FRAMEWORK_NAME}\"\n\n#echo \"${FRAMEWORK_BUILD_PATH}++${SRCROOT}++/build/../++${CONFIGURATION}++-++iphoneos/++${FRAMEWORK_NAME}++.a \"\n#cp \"${FRAMEWORK_BUILD_PATH}/${EXECUTABLE_NAME}\" \"${FRAMEWORK_DIR}/Versions/Current/${FRAMEWORK_NAME}\"\n\n#--------------------------------------------------------------------\necho \"[5] Framework: Copying assets into current version...\"\n#--------------------------------------------------------------------\nPUBLIC_HEADERS_FOLDER_PATH=\"/usr/local/include/${FRAMEWORK_NAME}/\"\ncp -r \"${FRAMEWORK_BUILD_PATH}${PUBLIC_HEADERS_FOLDER_PATH}\" ${FRAMEWORK_DIR}/Headers/\ncp \"${TARGET_NAME}-Info.plist\" ${FRAMEWORK_DIR}/Resources/Info.plist\n\n#--------------------------------------------------------------------\necho \"[6] Framework: Packaging framework...\"\n#--------------------------------------------------------------------\ncp -R \"${FRAMEWORK_DIR}\" \"${FRAMEWORK_INSTALL_DIR}\"\n#cd ${FRAMEWORK_BUILD_PATH}\n#zip -ry ${PACKAGENAME} $(basename $FRAMEWORK_DIR)";
+		};
 		DABBE58212C0B04300D0F888 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -334,6 +463,22 @@
 				DABBE55F12C0AF4300D0F888 /* NSDictionary+PropertyList.m in Sources */,
 				DABBE56112C0AF4300D0F888 /* NSString+Addition.m in Sources */,
 				DA75FF5312DF5C6B00843DF7 /* NSString+URLEscape.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA03473A1451ECC600035373 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA0347471451ECC600035373 /* ATYSExt.m in Sources */,
+				DA03475D1451ECE100035373 /* NSString+URLEscape.m in Sources */,
+				DA03475F1451ECE100035373 /* NSArray+Map.m in Sources */,
+				DA0347611451ECE100035373 /* NSArray+random.m in Sources */,
+				DA0347631451ECE100035373 /* NSData+Hash.m in Sources */,
+				DA0347651451ECE100035373 /* NSDate+RFC1123.m in Sources */,
+				DA0347671451ECE100035373 /* NSDictionary+HTTPQuery.m in Sources */,
+				DA0347691451ECE100035373 /* NSDictionary+PropertyList.m in Sources */,
+				DA03476B1451ECE100035373 /* NSString+Addition.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -440,6 +585,71 @@
 			};
 			name = Release;
 		};
+		DA03472C1451EAC400035373 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DA03472D1451EAC400035373 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DA0347491451ECC600035373 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/ATYSExt.dst;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ATYSExt/ATYSExt-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		DA03474A1451ECC600035373 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DSTROOT = /tmp/ATYSExt.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ATYSExt/ATYSExt-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 		DABBE58612C0B04300D0F888 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -514,6 +724,23 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		DA03472B1451EAC400035373 /* Build configuration list for PBXAggregateTarget "ATYSExt_iOS_framework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA03472C1451EAC400035373 /* Debug */,
+				DA03472D1451EAC400035373 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA0347481451ECC600035373 /* Build configuration list for PBXNativeTarget "ATYSExt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA0347491451ECC600035373 /* Debug */,
+				DA03474A1451ECC600035373 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 		DABBE58812C0B04400D0F888 /* Build configuration list for PBXNativeTarget "objcExtensionTest" */ = {
 			isa = XCConfigurationList;
