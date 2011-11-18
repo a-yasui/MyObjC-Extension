@@ -14,16 +14,21 @@ static NSDateFormatter* rfcFormatter = nil;
 
 +(NSDate*)dateFromRFC1123:(NSString*)value_
 {
-    NSString* _v = [value_ copy];
+    NSDateFormatter* rfcFormatter = nil;
+    NSString* _v = [[NSString alloc] initWithString:value_];
     NSDate* result = nil;
     
     if(value_ == nil)
-        goto result;
+        goto _result;
     
     if (rfcFormatter == nil)
     {
+        NSLocale* locale = nil;
+        locale  = [[NSLocale alloc] initWithLocaleIdentifier:@"en_US"];
+        
         rfcFormatter = [[NSDateFormatter alloc] init];
-        rfcFormatter.locale = [[[NSLocale alloc] initWithLocaleIdentifier:@"en_US"] autorelease];
+        rfcFormatter.locale = locale;
+        [locale release], locale = nil;
     }
     
     NSArray* dates = [NSArray arrayWithObjects:
@@ -39,25 +44,37 @@ static NSDateFormatter* rfcFormatter = nil;
         result = [rfcFormatter dateFromString:_v];
         if (result)
         {
-            goto result;
+            goto _result;
         }
     }
     
-result:
-    if (_v) [_v release], _v = nil;
+_result:
+    [rfcFormatter release], rfcFormatter = nil;
+    [_v release], _v = nil;
     return result;
 }
 
 -(NSString*)rfc1123String
 {
-    static NSDateFormatter *df = nil;
-    if(df == nil)
+    NSDateFormatter* rfcFormatter = nil;
+    NSString* result = nil;
+    
+    if (rfcFormatter == nil)
     {
-        df = [[NSDateFormatter alloc] init];
-        df.locale = [[[NSLocale alloc] initWithLocaleIdentifier:@"en_US"] autorelease];
-        df.timeZone = [NSTimeZone timeZoneWithAbbreviation:@"GMT"];
-        df.dateFormat = @"EEE',' dd MMM yyyy HH':'mm':'ss 'GMT'";
+        NSLocale* locale = nil;
+        locale  = [[NSLocale alloc] initWithLocaleIdentifier:@"en_US"];
+        
+        rfcFormatter = [[NSDateFormatter alloc] init];
+        rfcFormatter.locale = locale;
+        [locale release], locale = nil;
     }
-    return [df stringFromDate:self];
+    
+    rfcFormatter.timeZone = [NSTimeZone timeZoneWithAbbreviation:@"GMT"];
+    rfcFormatter.dateFormat = @"EEE',' dd MMM yyyy HH':'mm':'ss 'GMT'";
+    
+    result = [rfcFormatter stringFromDate:self];
+    
+    [rfcFormatter release], rfcFormatter = nil;
+    return result;
 }
 @end
