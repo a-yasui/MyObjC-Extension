@@ -76,6 +76,8 @@ NSRecursiveLock
 
 - `- (void) runLockBlock:(void(^)(void))block;` block をロックした状態で実行します
 
+### runLockBlock: Sample
+
 	#import <OExtension.h>
 	static NSRecursiveLock* globalLock = [[NSRecursiveLock alloc] init];
 	static NSMutableString* infoLog    = [[NSMutableString alloc] init];
