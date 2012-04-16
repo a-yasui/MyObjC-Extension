@@ -71,7 +71,21 @@ NSString
 - `- (NSString*) lastNameComponent;` 拡張子を消したファイル名を取得します。
 - `- (NSString*) urlEncoding;` URL Encode をします。
 
+NSRecursiveLock
+---------------
 
+- `- (void) runLockBlock:(void(^)(void))block;` block をロックした状態で実行します
+
+	#import <OExtension.h>
+	static NSRecursiveLock* globalLock = [[NSRecursiveLock alloc] init];
+	static NSMutableString* infoLog    = [[NSMutableString alloc] init];
+	#define info(__FORMAT__, ...) [globalLock runLockBlock:^{\
+		[infoLog appendFormat:(@"%s [Line %d] " __FORMAT__), __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__]; \
+	}]
+	
+	// some a code...
+	if ([args length])
+		info(@"infomation: %@ is found", args);
 
 LICENSE
 -------

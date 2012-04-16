@@ -70,6 +70,11 @@
 		DABBE7A212C0BF8F00D0F888 /* NSDictionary+HTTPQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = DABBE54F12C0AF4300D0F888 /* NSDictionary+HTTPQuery.m */; };
 		DABBE7A312C0BF8F00D0F888 /* NSDictionary+PropertyList.m in Sources */ = {isa = PBXBuildFile; fileRef = DABBE55112C0AF4300D0F888 /* NSDictionary+PropertyList.m */; };
 		DABBE7A412C0BF8F00D0F888 /* NSString+Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = DABBE55312C0AF4300D0F888 /* NSString+Addition.m */; };
+		DADB221F153CB5EF00D5A5FC /* NSRecursiveLock+block.h in Headers */ = {isa = PBXBuildFile; fileRef = DADB221D153CB5EF00D5A5FC /* NSRecursiveLock+block.h */; };
+		DADB2220153CB5EF00D5A5FC /* NSRecursiveLock+block.h in Headers */ = {isa = PBXBuildFile; fileRef = DADB221D153CB5EF00D5A5FC /* NSRecursiveLock+block.h */; };
+		DADB2221153CB5EF00D5A5FC /* NSRecursiveLock+block.m in Sources */ = {isa = PBXBuildFile; fileRef = DADB221E153CB5EF00D5A5FC /* NSRecursiveLock+block.m */; };
+		DADB2222153CB5EF00D5A5FC /* NSRecursiveLock+block.m in Sources */ = {isa = PBXBuildFile; fileRef = DADB221E153CB5EF00D5A5FC /* NSRecursiveLock+block.m */; };
+		DADB2223153CB5EF00D5A5FC /* NSRecursiveLock+block.m in Sources */ = {isa = PBXBuildFile; fileRef = DADB221E153CB5EF00D5A5FC /* NSRecursiveLock+block.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -115,6 +120,8 @@
 		DABBE71212C0B17E00D0F888 /* OEUnittest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OEUnittest.h; path = unittest/OEUnittest.h; sourceTree = "<group>"; };
 		DABBE71312C0B17E00D0F888 /* OEUnittest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OEUnittest.m; path = unittest/OEUnittest.m; sourceTree = "<group>"; };
 		DABBE71512C0B19900D0F888 /* OExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OExtension.h; sourceTree = "<group>"; };
+		DADB221D153CB5EF00D5A5FC /* NSRecursiveLock+block.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSRecursiveLock+block.h"; sourceTree = "<group>"; };
+		DADB221E153CB5EF00D5A5FC /* NSRecursiveLock+block.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSRecursiveLock+block.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -266,6 +273,8 @@
 				DABBE55312C0AF4300D0F888 /* NSString+Addition.m */,
 				DABBE71512C0B19900D0F888 /* OExtension.h */,
 				DA03476D1451ED7100035373 /* libATYSExt.h */,
+				DADB221D153CB5EF00D5A5FC /* NSRecursiveLock+block.h */,
+				DADB221E153CB5EF00D5A5FC /* NSRecursiveLock+block.m */,
 			);
 			name = extension;
 			path = ../extension;
@@ -297,6 +306,7 @@
 				DABBE71612C0B19900D0F888 /* OExtension.h in Headers */,
 				DA75FF5212DF5C6B00843DF7 /* NSString+URLEscape.h in Headers */,
 				DA03476E1451ED7100035373 /* libATYSExt.h in Headers */,
+				DADB221F153CB5EF00D5A5FC /* NSRecursiveLock+block.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -314,6 +324,7 @@
 				DA03476A1451ECE100035373 /* NSString+Addition.h in Headers */,
 				DA03476C1451ECE100035373 /* OExtension.h in Headers */,
 				DA03476F1451EDAA00035373 /* libATYSExt.h in Headers */,
+				DADB2220153CB5EF00D5A5FC /* NSRecursiveLock+block.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -463,6 +474,7 @@
 				DABBE55F12C0AF4300D0F888 /* NSDictionary+PropertyList.m in Sources */,
 				DABBE56112C0AF4300D0F888 /* NSString+Addition.m in Sources */,
 				DA75FF5312DF5C6B00843DF7 /* NSString+URLEscape.m in Sources */,
+				DADB2221153CB5EF00D5A5FC /* NSRecursiveLock+block.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -479,6 +491,7 @@
 				DA0347671451ECE100035373 /* NSDictionary+HTTPQuery.m in Sources */,
 				DA0347691451ECE100035373 /* NSDictionary+PropertyList.m in Sources */,
 				DA03476B1451ECE100035373 /* NSString+Addition.m in Sources */,
+				DADB2223153CB5EF00D5A5FC /* NSRecursiveLock+block.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -495,6 +508,7 @@
 				DABBE7A412C0BF8F00D0F888 /* NSString+Addition.m in Sources */,
 				DABBE71412C0B17E00D0F888 /* OEUnittest.m in Sources */,
 				DA75FF5412DF5C6B00843DF7 /* NSString+URLEscape.m in Sources */,
+				DADB2222153CB5EF00D5A5FC /* NSRecursiveLock+block.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -627,6 +641,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				TEST_AFTER_BUILD = YES;
 			};
 			name = Debug;
 		};
@@ -646,6 +661,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				TEST_AFTER_BUILD = YES;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -673,6 +689,7 @@
 				);
 				PREBINDING = NO;
 				PRODUCT_NAME = objcExtensionTest;
+				TEST_AFTER_BUILD = YES;
 				WRAPPER_EXTENSION = octest;
 			};
 			name = Debug;
@@ -699,6 +716,7 @@
 				);
 				PREBINDING = NO;
 				PRODUCT_NAME = objcExtensionTest;
+				TEST_AFTER_BUILD = YES;
 				WRAPPER_EXTENSION = octest;
 				ZERO_LINK = NO;
 			};

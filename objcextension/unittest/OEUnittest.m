@@ -14,10 +14,16 @@
 #import "NSDictionary+HTTPQuery.h"
 #import "NSDictionary+PropertyList.h"
 #import "NSString+Addition.h"
+#import "NSRecursiveLock+block.h"
 
 #define N(n) [NSNumber numberWithInt:(n)]
 
+static NSMutableString* threadTestStr;
 @implementation OEUnittest
+{
+    NSRecursiveLock* _lock;
+}
+
 
 - (void) testNsArrayMap
 {
@@ -123,14 +129,55 @@
 }
 
 
-- (void) testNsDataRFC1123
-{
+- (void) testNsDataRFC1123 {
 
 }
 
-
-- (void) testNsStringURLEscapes
-{
+- (void) testNsStringURLEscapes {
 }
 
+
+- (void) threadTest1:(id)sender {
+    @autoreleasepool {
+        CGFloat wait = [(NSNumber*)sender floatValue];
+        NSInteger i = 0;
+        for (i = 0; i < 3; i++) {
+            [_lock runLockBlock:^{
+                [threadTestStr appendFormat:@"%0.1f", wait,nil];
+                [NSThread sleepForTimeInterval:0.5-wait];
+            }];
+            [NSThread sleepForTimeInterval:wait];
+        }
+    }
+    [NSThread exit];
+}
+
+
+- (void) testNSRecursiveLockBlock {
+    _lock = [[NSRecursiveLock alloc] init];
+    threadTestStr = [[NSMutableString alloc] init];
+    NSThread* a = [[NSThread alloc] initWithTarget:self
+                                          selector:@selector(threadTest1:)
+                                            object:[NSNumber numberWithFloat:0.3]];
+    NSThread* b = [[NSThread alloc] initWithTarget:self
+                                          selector:@selector(threadTest1:)
+                                            object:[NSNumber numberWithFloat:0.2]];
+    
+    [a start];
+    [b start];
+    
+    // wait...
+    while (YES) {
+        if ([a isFinished])
+            break;
+    }
+    
+    STAssertEqualObjects(threadTestStr,
+                         @"0.30.20.30.20.30.2",
+                         @"not match thread lock");
+    
+    [a release], a = nil;
+    [b release], b = nil;
+    [_lock release], _lock = nil;
+}
 @end
